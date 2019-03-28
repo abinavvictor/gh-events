@@ -9,3 +9,14 @@ gem 'jbuilder', '~> 2.5'
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
+
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver', '~> 3.7'
+  gem 'webdrivers', '~> 3.0'
+  gem 'webmock', '~> 3.0'
+end
