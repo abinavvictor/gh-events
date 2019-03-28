@@ -101,6 +101,7 @@ GEM
       ast (~> 2.4.0)
     psych (3.1.0)
     public_suffix (3.0.3)
+    puma (3.12.1)
     rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -204,6 +205,7 @@ DEPENDENCIES
   capybara
   jbuilder (~> 2.5)
   octokit (~> 4.0)
+  puma (~> 3.12)
   rails (~> 5.2.3)
   rspec-rails
   rubocop
@@ -216,4 +218,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.6
+   1.17.2
