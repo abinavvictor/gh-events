@@ -4,7 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 gem 'jbuilder', '~> 2.5'
-gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
+gem 'octokit', '~> 4.0'
+gem 'rails', '~> 5.2.3'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
