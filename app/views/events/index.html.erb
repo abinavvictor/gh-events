@@ -1,7 +1,7 @@
 <% content_for(:title, @user.login) %>
 
 <h1>
-  <a href="<%= @user.html_url %>"><img src="<%= @user.avatar_url %>" alt="@<%= @user.login %>"/></a>
+  <a href="<%= @user.html_url %>"><img class="avatar" src="<%= @user.avatar_url %>" alt="@<%= @user.login %>"/></a>
   <a href="<%= @user.html_url %>"><%= @user.login %></a>
 </h1>
 

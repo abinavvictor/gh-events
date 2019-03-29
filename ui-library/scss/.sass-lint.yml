@@ -3,23 +3,26 @@ files:
     - '**/_open-sans.scss'
 
 rules:
+  final-newline:
+    - 0
+
   hex-length:
-  - 1
-  - style: 'long'
+    - 1
+    - style: 'long'
 
   nesting-depth:
-  - 1
-  - max-depth: 4
+    - 1
+    - max-depth: 4
 
   # TODO: figure out rationale for this one
   no-qualifying-elements:
-  - 1
-  - allow-element-with-class: true
+    - 1
+    - allow-element-with-class: true
 
   # TODO: figure out why nesting classes doesn't work
   force-element-nesting:
-  - 0
+    - 0
 
   # TODO: figure out why nesting pseudoclasses doesn't work
   force-pseudo-nesting:
-  - 0
+    - 0

@@ -1,0 +1,76 @@
+@import 'globals';
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $color-bg;
+  color: $color-fg;
+  font-family: $font-family;
+  line-height: (4 / 3);
+  margin: $margin;
+  min-height: 100vh;
+}
+
+nav {
+  align-self: start;
+  display: flex;
+  flex: 1;
+  justify-self: left;
+}
+
+main {
+  align-self: center;
+  flex-direction: column;
+  flex-grow: 1;
+  height: min-content;
+  padding: $padding;
+}
+
+h1 {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: $margin / 2;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
+}
+
+table {
+  font-size: smaller;
+
+  tr:not(:last-child) {
+    th {
+      border-bottom: 1px solid $color-border;
+    }
+
+    td {
+      border-bottom: 1px solid $color-border;
+    }
+  }
+
+  tr:nth-child(even) {
+    background: $color-bg-accent;
+  }
+}
+
+th {
+  padding: $padding / 2;
+  text-align: left;
+}
+
+td {
+  padding: $padding / 2;
+}
+
+img.avatar {
+  height: 1em;
+}

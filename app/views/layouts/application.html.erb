@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>gh-events<%= " — #{yield(:title)}" if content_for?(:title) %></title>
+  <meta charset="utf-8">
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
@@ -10,11 +11,19 @@
 </head>
 
 <body>
-<%= yield %>
 
-<footer>
-  <a href="/" id="home">Home</a>
-</footer>
+<header>
+  <nav>
+    <ul>
+      <li><a href="/" id="home">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<%= yield %>
+</main>
+
 </body>
 
 </html>

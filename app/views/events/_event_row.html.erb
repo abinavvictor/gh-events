@@ -4,7 +4,7 @@
   <td><%= event.type %></td>
   <td>
     <% if (actor = event.actor) %>
-      <a href="<%= actor.url %>"><img src="<%= actor.avatar_url %>" alt="@<%= actor.display_login %>"/></a>
+      <a href="<%= actor.url %>"><img class="avatar" src="<%= actor.avatar_url %>" alt="@<%= actor.display_login %>"/></a>
       <a href="<%= actor.url %>"><%= actor.display_login %></a>
     <% end %>
   </td>
