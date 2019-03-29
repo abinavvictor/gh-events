@@ -1,2 +1,7 @@
-<h1>Events#index</h1>
-<p>Find me in app/views/events/index.html.erb</p>
+<h1>List Events</h1>
+
+<%= form_tag('/events/', method: 'get') do %>
+  <%= label_tag(:login, "Enter a GitHub login name to get started:") %>
+  <%= text_field_tag(:login) %>
+  <%= submit_tag(value="Go", name: 'submit', id: 'submit') %>
+<% end %>
