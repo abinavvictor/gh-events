@@ -1,5 +1,7 @@
 {
   "name": "gh-events",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "sass-lint": "^1.12.1"
+  }
 }
