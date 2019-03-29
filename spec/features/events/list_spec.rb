@@ -2,30 +2,16 @@ require 'features_helper'
 require 'json'
 
 describe 'events#list' do
-  attr_reader :user_login
-  attr_reader :user_id
-
-  attr_reader :user_json
-  attr_reader :events_json
+  include_context('user')
+  include_context('events')
 
   attr_reader :expected_events
 
-  def stub_get_json(url, body)
-    stub_request(:get, url).to_return(status: 200, body: body, headers: { content_type: 'application/json; charset=utf-8' })
-  end
-
   before :all do
-    @user_login = 'dmolesUC3'
-    @user_id = 10374934
-
-    @user_json = File.read(Rails.root.join('spec/data/user.json'))
-    @events_json = File.read(Rails.root.join('spec/data/events.json'))
     @expected_events = JSON.parse(events_json)
   end
 
   before :each do
-    stub_get_json("https://api.github.com/users/#{user_login}", user_json)
-    stub_get_json("https://api.github.com/user/#{user_id}/events", events_json)
     visit("/events/#{user_login}")
   end
 
