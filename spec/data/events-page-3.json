@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "9201884983",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3378197219,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e88658064b418454597542a2197277e6f2999aa0",
+      "before": "45fa8f5f8ae0c41687316f5b2305fceee7e60b06",
+      "commits": [
+        {
+          "sha": "e88658064b418454597542a2197277e6f2999aa0",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Trigger SCM change, hopefully",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/e88658064b418454597542a2197277e6f2999aa0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T20:51:12Z"
+  },
+  {
+    "id": "9201718128",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3378109727,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "45fa8f5f8ae0c41687316f5b2305fceee7e60b06",
+      "before": "ae972e2acbfe997525d1e8a424238b1100d45bfe",
+      "commits": [
+        {
+          "sha": "45fa8f5f8ae0c41687316f5b2305fceee7e60b06",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add Jenkinsfile",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/45fa8f5f8ae0c41687316f5b2305fceee7e60b06"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T20:23:32Z"
+  },
+  {
+    "id": "9201716857",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3378109037,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "ae972e2acbfe997525d1e8a424238b1100d45bfe",
+      "before": "dab10f1fd88ae67c7680cb35174d408de969798f",
+      "commits": [
+        {
+          "sha": "ae972e2acbfe997525d1e8a424238b1100d45bfe",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add IDEA project",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/ae972e2acbfe997525d1e8a424238b1100d45bfe"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T20:23:20Z"
+  },
+  {
+    "id": "9201418707",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3377953467,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "df0246ab21ccf62f3f82e8875801efed7f527a22",
+      "before": "ad466df6e00b52f60f98cf3cb0fe7c1e8d3dafb2",
+      "commits": [
+        {
+          "sha": "df0246ab21ccf62f3f82e8875801efed7f527a22",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Install both JDK 8 and JDK 11 from AdoptOpenJDK",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/df0246ab21ccf62f3f82e8875801efed7f527a22"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T19:35:05Z"
+  },
+  {
+    "id": "9200883473",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3377674793,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "dab10f1fd88ae67c7680cb35174d408de969798f",
+      "before": "88f6022e3e622b5aef4fac43be3cc27eedf8f714",
+      "commits": [
+        {
+          "sha": "05fcc044ad29e1983459134a6a26f7922e1c5e3d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add .gitignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/05fcc044ad29e1983459134a6a26f7922e1c5e3d"
+        },
+        {
+          "sha": "dab10f1fd88ae67c7680cb35174d408de969798f",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add IDEA project",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/dab10f1fd88ae67c7680cb35174d408de969798f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T18:09:56Z"
+  },
+  {
+    "id": "9200846816",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 101798625,
+      "name": "CDLUC3/mrt-core2",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-core2"
+    },
+    "payload": {
+      "forkee": {
+        "id": 174395495,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxNzQzOTU0OTU=",
+        "name": "mrt-core2",
+        "full_name": "dmolesUC3/mrt-core2",
+        "private": false,
+        "owner": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/dmolesUC3/mrt-core2",
+        "description": null,
+        "fork": true,
+        "url": "https://api.github.com/repos/dmolesUC3/mrt-core2",
+        "forks_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/forks",
+        "keys_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/teams",
+        "hooks_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/hooks",
+        "issue_events_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/events",
+        "assignees_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/tags",
+        "blobs_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/languages",
+        "stargazers_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/stargazers",
+        "contributors_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/contributors",
+        "subscribers_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/subscribers",
+        "subscription_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/subscription",
+        "commits_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/merges",
+        "archive_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/downloads",
+        "issues_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/labels{/name}",
+        "releases_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/dmolesUC3/mrt-core2/deployments",
+        "created_at": "2019-03-07T18:04:02Z",
+        "updated_at": "2019-03-05T19:00:05Z",
+        "pushed_at": "2019-03-05T19:00:02Z",
+        "git_url": "git://github.com/dmolesUC3/mrt-core2.git",
+        "ssh_url": "git@github.com:dmolesUC3/mrt-core2.git",
+        "clone_url": "https://github.com/dmolesUC3/mrt-core2.git",
+        "svn_url": "https://github.com/dmolesUC3/mrt-core2",
+        "homepage": null,
+        "size": 532,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_projects": true,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "open_issues_count": 0,
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-07T18:04:03Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9195182782",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 42262115,
+      "name": "dmolesUC3/idea-settings",
+      "url": "https://api.github.com/repos/dmolesUC3/idea-settings"
+    },
+    "payload": {
+      "push_id": 3374703993,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "87b33a9261a67fabf7d00f664e43b8251dec22b3",
+      "before": "6310d57328f75558604cd6fab8454538555425ad",
+      "commits": [
+        {
+          "sha": "e3d0940dfe00047a9cd1bfa38dc91b1f066766f7",
+          "author": {
+            "email": "david@cdl-dmoles-9m.ad.ucop.edu",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@cdl-dmoles-9m.ad.ucop.edu Update find.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/e3d0940dfe00047a9cd1bfa38dc91b1f066766f7"
+        },
+        {
+          "sha": "dd6fa7d7790efc145f4e4b20c0cccd74ae49d42b",
+          "author": {
+            "email": "david@cdl-dmoles-9m.ad.ucop.edu",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@cdl-dmoles-9m.ad.ucop.edu Update find.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/dd6fa7d7790efc145f4e4b20c0cccd74ae49d42b"
+        },
+        {
+          "sha": "87b33a9261a67fabf7d00f664e43b8251dec22b3",
+          "author": {
+            "email": "david@cdl-dmoles-9m.ad.ucop.edu",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@cdl-dmoles-9m.ad.ucop.edu Update find.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/87b33a9261a67fabf7d00f664e43b8251dec22b3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-07T01:20:11Z"
+  },
+  {
+    "id": "9193458201",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3373798476,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "ad466df6e00b52f60f98cf3cb0fe7c1e8d3dafb2",
+      "before": "f6f37f7dfeb5772c64ec0dc7019e959f2b7792fc",
+      "commits": [
+        {
+          "sha": "ad466df6e00b52f60f98cf3cb0fe7c1e8d3dafb2",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add LICENSE.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/ad466df6e00b52f60f98cf3cb0fe7c1e8d3dafb2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-06T19:46:56Z"
+  },
+  {
+    "id": "9193434850",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3373786486,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "f6f37f7dfeb5772c64ec0dc7019e959f2b7792fc",
+      "before": "9679aa3eff81539f8f49f8b077215f6956468e61",
+      "commits": [
+        {
+          "sha": "6af1742c9608743fb836a1dec4cad6576aa7f473",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Deal with some security warnings",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/6af1742c9608743fb836a1dec4cad6576aa7f473"
+        },
+        {
+          "sha": "4c5b69a603dbce34274f7a60e0e0ddb12a71a44a",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Remove blueocean till we know we want it",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/4c5b69a603dbce34274f7a60e0e0ddb12a71a44a"
+        },
+        {
+          "sha": "f6f37f7dfeb5772c64ec0dc7019e959f2b7792fc",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add back some plugins",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/f6f37f7dfeb5772c64ec0dc7019e959f2b7792fc"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-06T19:43:25Z"
+  },
+  {
+    "id": "9193120370",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3373627524,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "9679aa3eff81539f8f49f8b077215f6956468e61",
+      "before": "c4b5c771c00b8f44afa46f2d00ab224394382212",
+      "commits": [
+        {
+          "sha": "9679aa3eff81539f8f49f8b077215f6956468e61",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Disable security and disable setup wizard",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/9679aa3eff81539f8f49f8b077215f6956468e61"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:55:09Z"
+  },
+  {
+    "id": "9193106314",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 417940069,
+        "node_id": "MDU6SXNzdWU0MTc5NDAwNjk=",
+        "number": 773,
+        "title": "authorizationStrategy: unsecured still wants me to create an admin user",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 5,
+        "created_at": "2019-03-06T18:09:09Z",
+        "updated_at": "2019-03-06T18:52:54Z",
+        "closed_at": "2019-03-06T18:52:54Z",
+        "author_association": "NONE",
+        "body": "I'm running a throwaway instance of Jenkins in a Docker container on a machine that's only accessible to people who in principle would all have admin privileges anyway.\r\n\r\nI've tried copying the configuration from [`UnsecuredAuthorizationStrategyConfiguratorTest.yml`](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/casc/core/UnsecuredAuthorizationStrategyConfiguratorTest.yml), but when I navigate to Jenkins the first thing I get is a prompt to create an admin user. Full `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n\r\njenkins:\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nI tried\r\n\r\n```\r\n  securityRealm: none\r\n```\r\n\r\nbut that just got me\r\n\r\n```\r\njava.lang.IllegalArgumentException: No hudson.security.SecurityRealm implementation found for none\r\nPossible solution: Try to install 'configuration-as-code-support' plugin\r\n\tat io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.findDescribableBySymbol(HeteroDescribableConfigurator.java:148)\r\n```\r\n\r\nWhat am I missing?\r\n\r\n## System information\r\n\r\n- Jenkins 2.150.3 (`jenkins/jenkins:lts` Docker image)\r\n- configuration-as-code version 1.7\r\n- macOS (as Docker host)\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:52:55Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9193106283",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 417940069,
+        "node_id": "MDU6SXNzdWU0MTc5NDAwNjk=",
+        "number": 773,
+        "title": "authorizationStrategy: unsecured still wants me to create an admin user",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2019-03-06T18:09:09Z",
+        "updated_at": "2019-03-06T18:52:54Z",
+        "closed_at": "2019-03-06T18:52:54Z",
+        "author_association": "NONE",
+        "body": "I'm running a throwaway instance of Jenkins in a Docker container on a machine that's only accessible to people who in principle would all have admin privileges anyway.\r\n\r\nI've tried copying the configuration from [`UnsecuredAuthorizationStrategyConfiguratorTest.yml`](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/casc/core/UnsecuredAuthorizationStrategyConfiguratorTest.yml), but when I navigate to Jenkins the first thing I get is a prompt to create an admin user. Full `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n\r\njenkins:\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nI tried\r\n\r\n```\r\n  securityRealm: none\r\n```\r\n\r\nbut that just got me\r\n\r\n```\r\njava.lang.IllegalArgumentException: No hudson.security.SecurityRealm implementation found for none\r\nPossible solution: Try to install 'configuration-as-code-support' plugin\r\n\tat io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.findDescribableBySymbol(HeteroDescribableConfigurator.java:148)\r\n```\r\n\r\nWhat am I missing?\r\n\r\n## System information\r\n\r\n- Jenkins 2.150.3 (`jenkins/jenkins:lts` Docker image)\r\n- configuration-as-code version 1.7\r\n- macOS (as Docker host)\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/comments/470229597",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773#issuecomment-470229597",
+        "issue_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 470229597,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDIyOTU5Nw==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-06T18:52:54Z",
+        "updated_at": "2019-03-06T18:52:54Z",
+        "author_association": "NONE",
+        "body": "Ah, I misread `configuration-as-code-support` as `configuration-as-code`, thank you.\r\n\r\nIt would be helpful if the purpose of the `-support` plugin was documented more prominently, as the only reference I saw to it was this one:\r\n\r\n> Those running Jenkins as a [Docker](https://github.com/jenkinsci/docker) container (and maybe also [pre-installing plugins](https://github.com/jenkinsci/docker#preinstalling-plugins)), do include [Configuration as Code](https://plugins.jenkins.io/configuration-as-code) plugin and optionally the [Configuration as Code Support](https://plugins.jenkins.io/configuration-as-code-support) plugin if you use one of the credentials plugins or the job-dsl (see link).\r\n\r\nI take it this is meant to mean,\r\n\r\n> If you're using one of the credentials plugins or the job-dsl, which are optional, you should install Configuration As Code Support.\r\n\r\nbut I understood it to mean\r\n\r\n> If you're using one of the credentials plugins or the job-dsl, you might, optionally, want to install Configuration As Code Support.\r\n\r\nI'm not sure which link is meant by \"(see link)\", but the [Configuration As Code Support plugin page](https://plugins.jenkins.io/configuration-as-code-support) doesn't give any information as to why one might or might not want it.\r\n\r\nThat said, adding `configuration-as-code-support` doesn't allow `securityRealm: none`, it just suppresses the `Possible solution:` message. Removing the `securityRealm` section entirely did seem to work.\r\n\r\nThe `jenkins.install.UpgradeWizard.state` / `jenkins.install.InstallUtil.lastExecVersion` trick didn't work, possibly [broken in some recent-ish Jenkins version](https://github.com/jenkinsci/docker/issues/310#issuecomment-412120287) -- it looked as though the `jenkins.install.InstallUtil.lastExecVersion` file somehow got deleted between the time it was written and the time I navigated to Jenkins in the browser. However, adding\r\n\r\n```\r\nENV JAVA_OPTS -Djenkins.install.runSetupWizard=false\r\n```\r\n\r\nto the Dockerfile and removing the `securityRealm` section entirely does seem to do the trick."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:52:54Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9193066158",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3373600594,
+      "size": 5,
+      "distinct_size": 5,
+      "ref": "refs/heads/master",
+      "head": "c4b5c771c00b8f44afa46f2d00ab224394382212",
+      "before": "242d2033de013f431de951764844d2470a5b623e",
+      "commits": [
+        {
+          "sha": "fe6feb5ef56cc5c5cb35536d2be3595803fe8c66",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Delete old attempts at config files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/fe6feb5ef56cc5c5cb35536d2be3595803fe8c66"
+        },
+        {
+          "sha": "5bdc51432b4a56dc6a06e53ae8ef587d0bf33a4e",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add comments",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/5bdc51432b4a56dc6a06e53ae8ef587d0bf33a4e"
+        },
+        {
+          "sha": "d2b9a39390b46da25c9602261c871863d50511f9",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Configure JDKs through casc_configs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/d2b9a39390b46da25c9602261c871863d50511f9"
+        },
+        {
+          "sha": "02154d5be05e2c1fa7ea0c3888f6c8e9196b571d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Document docker rm -f",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/02154d5be05e2c1fa7ea0c3888f6c8e9196b571d"
+        },
+        {
+          "sha": "c4b5c771c00b8f44afa46f2d00ab224394382212",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Remove unintentional commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/c4b5c771c00b8f44afa46f2d00ab224394382212"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:46:45Z"
+  },
+  {
+    "id": "9192892500",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 417940069,
+        "node_id": "MDU6SXNzdWU0MTc5NDAwNjk=",
+        "number": 773,
+        "title": "authorizationStrategy: unsecured still wants me to create an admin user",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2019-03-06T18:09:09Z",
+        "updated_at": "2019-03-06T18:19:58Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "I'm running a throwaway instance of Jenkins in a Docker container on a machine that's only accessible to people who in principle would all have admin privileges anyway.\r\n\r\nI've tried copying the configuration from [`UnsecuredAuthorizationStrategyConfiguratorTest.yml`](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/casc/core/UnsecuredAuthorizationStrategyConfiguratorTest.yml), but when I navigate to Jenkins the first thing I get is a prompt to create an admin user. Full `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n\r\njenkins:\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nI tried\r\n\r\n```\r\n  securityRealm: none\r\n```\r\n\r\nbut that just got me\r\n\r\n```\r\njava.lang.IllegalArgumentException: No hudson.security.SecurityRealm implementation found for none\r\nPossible solution: Try to install 'configuration-as-code-support' plugin\r\n\tat io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.findDescribableBySymbol(HeteroDescribableConfigurator.java:148)\r\n```\r\n\r\nWhat am I missing?\r\n\r\n## System information\r\n\r\n- Jenkins 2.150.3 (`jenkins/jenkins:lts` Docker image)\r\n- configuration-as-code version 1.7\r\n- macOS (as Docker host)\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/comments/470217650",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773#issuecomment-470217650",
+        "issue_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 470217650,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDIxNzY1MA==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-06T18:19:58Z",
+        "updated_at": "2019-03-06T18:19:58Z",
+        "author_association": "NONE",
+        "body": "(For clarity, my goal here is\r\n\r\n> Fully working Jenkins master with:\r\n> \r\n> - *no hands* on keyboard\r\n> - *no click* on UI\r\n\r\nas promised on the CASC homepage.)"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:19:58Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9192883620",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 417940069,
+        "node_id": "MDU6SXNzdWU0MTc5NDAwNjk=",
+        "number": 773,
+        "title": "authorizationStrategy: unsecured still wants me to create an admin user",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-06T18:09:09Z",
+        "updated_at": "2019-03-06T18:18:33Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "I'm running a throwaway instance of Jenkins in a Docker container on a machine that's only accessible to people who in principle would all have admin privileges anyway.\r\n\r\nI've tried copying the configuration from [`UnsecuredAuthorizationStrategyConfiguratorTest.yml`](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/casc/core/UnsecuredAuthorizationStrategyConfiguratorTest.yml), but when I navigate to Jenkins the first thing I get is a prompt to create an admin user. Full `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n\r\njenkins:\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nI tried\r\n\r\n```\r\n  securityRealm: none\r\n```\r\n\r\nbut that just got me\r\n\r\n```\r\njava.lang.IllegalArgumentException: No hudson.security.SecurityRealm implementation found for none\r\nPossible solution: Try to install 'configuration-as-code-support' plugin\r\n\tat io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.findDescribableBySymbol(HeteroDescribableConfigurator.java:148)\r\n```\r\n\r\nWhat am I missing?\r\n\r\n## System information\r\n\r\n- Jenkins 2.150.3 (`jenkins/jenkins:lts` Docker image)\r\n- configuration-as-code version 1.7\r\n- macOS (as Docker host)\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/comments/470217166",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773#issuecomment-470217166",
+        "issue_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 470217166,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDIxNzE2Ng==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-06T18:18:33Z",
+        "updated_at": "2019-03-06T18:18:33Z",
+        "author_association": "NONE",
+        "body": "After creating an admin user, I did a configuration export, and based on that I changed my config to:\r\n\r\n```\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n      enableCaptcha: false\r\n      users:\r\n        - id: admin\r\n          password: admin\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nThis kind-of-sort-of worked insofar as it didn't require me to create an admin user when I navigated to Jenkins; however, instead I was presented with the setup wizard. Exiting the setup wizard (with ❌) instead of selecting plugins got me:\r\n\r\n> # Jenkins is ready!\r\n>\r\n> You have skipped the setup of an admin user. \r\n> \r\n> To log in, use the username: \"admin\" and the administrator password you used to access the setup wizard.\r\n> You have skipped the configuration of the Jenkins URL. \r\n> \r\n> To configure the Jenkins URL, go to \"Manage Jenkins\" page.\r\n> Your Jenkins setup is complete.\r\n\r\nThis manages to be marginally more annoying than having to create a user."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:18:33Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9192825297",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/773/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/773",
+        "id": 417940069,
+        "node_id": "MDU6SXNzdWU0MTc5NDAwNjk=",
+        "number": 773,
+        "title": "authorizationStrategy: unsecured still wants me to create an admin user",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-06T18:09:09Z",
+        "updated_at": "2019-03-06T18:09:09Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "I'm running a throwaway instance of Jenkins in a Docker container on a machine that's only accessible to people who in principle would all have admin privileges anyway.\r\n\r\nI've tried copying the configuration from [`UnsecuredAuthorizationStrategyConfiguratorTest.yml`](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/casc/core/UnsecuredAuthorizationStrategyConfiguratorTest.yml), but when I navigate to Jenkins the first thing I get is a prompt to create an admin user. Full `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n\r\njenkins:\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  securityRealm:\r\n    local:\r\n      allowsSignup: false\r\n  authorizationStrategy: unsecured\r\n```\r\n\r\nI tried\r\n\r\n```\r\n  securityRealm: none\r\n```\r\n\r\nbut that just got me\r\n\r\n```\r\njava.lang.IllegalArgumentException: No hudson.security.SecurityRealm implementation found for none\r\nPossible solution: Try to install 'configuration-as-code-support' plugin\r\n\tat io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.findDescribableBySymbol(HeteroDescribableConfigurator.java:148)\r\n```\r\n\r\nWhat am I missing?\r\n\r\n## System information\r\n\r\n- Jenkins 2.150.3 (`jenkins/jenkins:lts` Docker image)\r\n- configuration-as-code version 1.7\r\n- macOS (as Docker host)\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T18:09:09Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9192507290",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 107676801,
+      "name": "jenkinsci/configuration-as-code-plugin",
+      "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/605",
+        "repository_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin",
+        "labels_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/605/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/605/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/605/events",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/605",
+        "id": 372199433,
+        "node_id": "MDU6SXNzdWUzNzIxOTk0MzM=",
+        "number": 605,
+        "title": "Plugins installation causes stackstrace",
+        "user": {
+          "login": "gomesp",
+          "id": 170885,
+          "node_id": "MDQ6VXNlcjE3MDg4NQ==",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/170885?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gomesp",
+          "html_url": "https://github.com/gomesp",
+          "followers_url": "https://api.github.com/users/gomesp/followers",
+          "following_url": "https://api.github.com/users/gomesp/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gomesp/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gomesp/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gomesp/subscriptions",
+          "organizations_url": "https://api.github.com/users/gomesp/orgs",
+          "repos_url": "https://api.github.com/users/gomesp/repos",
+          "events_url": "https://api.github.com/users/gomesp/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gomesp/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2018-10-20T10:55:26Z",
+        "updated_at": "2019-03-06T17:20:46Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "I am trying this plugin for the first time, so please forgive me for asking a very basic question.\r\n\r\nI created a sample Docker image to try your demos, and it seems that every time I add a plugin via CasC I get a stacktrace (below).\r\n\r\nThe code I am running is in this repository: https://github.com/gomesp/docker-jenkins\r\nIf I add the plugins config it will fail. I can't see any difference between my config below and your demo. \r\n\r\nSo, I have two questions:\r\n\r\n1. If I replace the plugin version from latest to a specific version (e.g. chucknorris: 1.1) then the stacktrace is gone, but the plugin is only available after a restart. Is it possible to have a working configuration with the latest plugin versions?\r\n2. Is it possible to have the plugins available without restarting Jenkins, i.e. installed before the first initialisation?\r\n\r\n```\r\nplugins:\r\n  required:\r\n    chucknorris: latest\r\n```\r\n\r\n```\r\nINFO: Started @3982ms\r\nOct 20, 2018 10:36:13 AM winstone.Logger logInternal\r\nINFO: Winstone Servlet Engine v4.0 running: controlPort=disabled\r\nOct 20, 2018 10:36:16 AM jenkins.InitReactorRunner$1 onAttained\r\nINFO: Started initialization\r\nOct 20, 2018 10:36:17 AM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses\r\nWARNING: Created /var/jenkins_home/plugins/gradle/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness\r\nOct 20, 2018 10:36:18 AM jenkins.InitReactorRunner$1 onAttained\r\nINFO: Listed all plugins\r\nOct 20, 2018 10:36:29 AM jenkins.InitReactorRunner$1 onAttained\r\nINFO: Prepared all plugins\r\nOct 20, 2018 10:36:29 AM jenkins.InitReactorRunner$1 onAttained\r\nINFO: Started all plugins\r\nOct 20, 2018 10:36:31 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error\r\nINFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping\r\nOct 20, 2018 10:36:31 AM jenkins.InitReactorRunner$1 onAttained\r\nINFO: Augmented all extensions\r\nOct 20, 2018 10:36:31 AM jenkins.InitReactorRunner$1 onTaskFailed\r\nSEVERE: Failed ConfigurationAsCode.init\r\njava.lang.Error: java.lang.reflect.InvocationTargetException\r\n\tat hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:110)\r\n\tat hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:175)\r\n\tat org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)\r\n\tat jenkins.model.Jenkins$5.runTask(Jenkins.java:1069)\r\n\tat org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)\r\n\tat org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:104)\r\n\t... 8 more\r\nCaused by: io.jenkins.plugins.casc.ConfiguratorException: plugins: error configuring 'plugins' with class io.jenkins.plugins.casc.plugins.PluginManagerConfigurator configurator\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.invokeWith(ConfigurationAsCode.java:614)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.checkWith(ConfigurationAsCode.java:645)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configureWith(ConfigurationAsCode.java:630)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configureWith(ConfigurationAsCode.java:542)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configure(ConfigurationAsCode.java:272)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.init(ConfigurationAsCode.java:264)\r\n\t... 13 more\r\nCaused by: io.jenkins.plugins.casc.ConfiguratorException: update site default isn't hosting plugin chucknorris\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.getPluginMetadata(PluginManagerConfigurator.java:278)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configurePlugins(PluginManagerConfigurator.java:177)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configure(PluginManagerConfigurator.java:92)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configure(PluginManagerConfigurator.java:58)\r\n\tat io.jenkins.plugins.casc.BaseConfigurator.check(BaseConfigurator.java:273)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.lambda$checkWith$8(ConfigurationAsCode.java:645)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.invokeWith(ConfigurationAsCode.java:608)\r\n\t... 18 more\r\n\r\nOct 20, 2018 10:36:31 AM hudson.util.BootFailure publish\r\nSEVERE: Failed to initialize Jenkins\r\nhudson.util.HudsonFailedToLoad: org.jvnet.hudson.reactor.ReactorException: java.lang.Error: java.lang.reflect.InvocationTargetException\r\n\tat hudson.WebAppMain$3.run(WebAppMain.java:250)\r\nCaused by: org.jvnet.hudson.reactor.ReactorException: java.lang.Error: java.lang.reflect.InvocationTargetException\r\n\tat org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:282)\r\n\tat jenkins.InitReactorRunner.run(InitReactorRunner.java:48)\r\n\tat jenkins.model.Jenkins.executeReactor(Jenkins.java:1103)\r\n\tat jenkins.model.Jenkins.<init>(Jenkins.java:907)\r\n\tat hudson.model.Hudson.<init>(Hudson.java:85)\r\n\tat hudson.model.Hudson.<init>(Hudson.java:81)\r\n\tat hudson.WebAppMain$3.run(WebAppMain.java:233)\r\nCaused by: java.lang.Error: java.lang.reflect.InvocationTargetException\r\n\tat hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:110)\r\n\tat hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:175)\r\n\tat org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)\r\n\tat jenkins.model.Jenkins$5.runTask(Jenkins.java:1069)\r\n\tat org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)\r\n\tat org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:104)\r\n\t... 8 more\r\nCaused by: io.jenkins.plugins.casc.ConfiguratorException: plugins: error configuring 'plugins' with class io.jenkins.plugins.casc.plugins.PluginManagerConfigurator configurator\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.invokeWith(ConfigurationAsCode.java:614)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.checkWith(ConfigurationAsCode.java:645)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configureWith(ConfigurationAsCode.java:630)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configureWith(ConfigurationAsCode.java:542)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.configure(ConfigurationAsCode.java:272)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.init(ConfigurationAsCode.java:264)\r\n\t... 13 more\r\nCaused by: io.jenkins.plugins.casc.ConfiguratorException: update site default isn't hosting plugin chucknorris\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.getPluginMetadata(PluginManagerConfigurator.java:278)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configurePlugins(PluginManagerConfigurator.java:177)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configure(PluginManagerConfigurator.java:92)\r\n\tat io.jenkins.plugins.casc.plugins.PluginManagerConfigurator.configure(PluginManagerConfigurator.java:58)\r\n\tat io.jenkins.plugins.casc.BaseConfigurator.check(BaseConfigurator.java:273)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.lambda$checkWith$8(ConfigurationAsCode.java:645)\r\n\tat io.jenkins.plugins.casc.ConfigurationAsCode.invokeWith(ConfigurationAsCode.java:608)\r\n\t... 18 more\r\n\r\nOct 20, 2018 10:36:31 AM jenkins.model.Jenkins cleanUp\r\nINFO: Stopping Jenkins\r\nOct 20, 2018 10:36:31 AM jenkins.model.Jenkins$18 onAttained\r\nINFO: Started termination\r\nOct 20, 2018 10:36:31 AM jenkins.model.Jenkins$18 onAttained\r\nINFO: Completed termination\r\nOct 20, 2018 10:36:31 AM jenkins.model.Jenkins _cleanUpDisconnectComputers\r\nINFO: Starting node disconnection\r\nOct 20, 2018 10:36:32 AM jenkins.model.Jenkins _cleanUpShutdownPluginManager\r\nINFO: Stopping plugin manager\r\nOct 20, 2018 10:36:32 AM jenkins.model.Jenkins _cleanUpPersistQueue\r\nINFO: Persisting build queue\r\nOct 20, 2018 10:36:32 AM jenkins.model.Jenkins _cleanUpAwaitDisconnects\r\nINFO: Waiting for node disconnection completion\r\nOct 20, 2018 10:36:32 AM jenkins.model.Jenkins cleanUp\r\nINFO: Jenkins stopped\r\n```"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/comments/470196458",
+        "html_url": "https://github.com/jenkinsci/configuration-as-code-plugin/issues/605#issuecomment-470196458",
+        "issue_url": "https://api.github.com/repos/jenkinsci/configuration-as-code-plugin/issues/605",
+        "id": 470196458,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDE5NjQ1OA==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-06T17:20:46Z",
+        "updated_at": "2019-03-06T17:20:46Z",
+        "author_association": "NONE",
+        "body": "I'm seeing this with `jenkins/jenkins:lts` and the following `jenkins.yaml`:\r\n\r\n```\r\nplugins:\r\n  required:\r\n    blueocean: latest\r\n    configuration-as-code: latest\r\n\r\njenkins:\r\n  authorizationStrategy: unsecured\r\n  mode: NORMAL\r\n  numExecutors: 2\r\n  scmCheckoutRetryCount: 2\r\n  systemMessage: |\r\n    Jenkins Docker image built from https://github.com/dmolesUC3/mrt-jenkins-docker\r\n\r\ntool:\r\n  git:\r\n    installations:\r\n      - name: git\r\n        home: /usr/bin/git\r\n  jdk:\r\n    installations:\r\n      - name: jdk8\r\n        home: /usr/lib/jvm/java-8-openjdk-amd64/\r\n      - name: jdk11\r\n        home: /opt/jdk/jdk-11\r\n```\r\n\r\nNote my Dockerfile also has\r\n\r\n```\r\nRUN install-plugins.sh \\\r\n    configuration-as-code \\\r\n    blueocean\r\n```\r\n\r\n(or, I assume, the `jenkins.yaml` would never get picked up in the first place). The container and Jenkins start OK, but when I navigate to Jenkins in the browser I get\r\n\r\n> # Error\r\n> \r\n> ```\r\n> io.jenkins.plugins.casc.ConfiguratorException: update site default isn't hosting plugin configuration-as-code\r\n> ```\r\n\r\nPinning the versions to\r\n\r\n```\r\n    blueocean: 1.13.1\r\n    configuration-as-code: 1.7\r\n```\r\n\r\ngets around the problem."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-06T17:20:46Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9186691419",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3370276352,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "242d2033de013f431de951764844d2470a5b623e",
+      "before": "24345b20829da317fa1ac3e5595f7c86e794b289",
+      "commits": [
+        {
+          "sha": "242d2033de013f431de951764844d2470a5b623e",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add configuration-as-code plugin",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/242d2033de013f431de951764844d2470a5b623e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T23:44:33Z"
+  },
+  {
+    "id": "9186517392",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3370186418,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "24345b20829da317fa1ac3e5595f7c86e794b289",
+      "before": "6ce867e14ab6b9a990c685b35a0fc59b9c0b44d9",
+      "commits": [
+        {
+          "sha": "24345b20829da317fa1ac3e5595f7c86e794b289",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Got OpenJDK download working",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/24345b20829da317fa1ac3e5595f7c86e794b289"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T23:07:22Z"
+  },
+  {
+    "id": "9185101862",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 161562723,
+      "name": "dmolesUC3/cos",
+      "url": "https://api.github.com/repos/dmolesUC3/cos"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/dmolesUC3/cos/issues/18",
+        "repository_url": "https://api.github.com/repos/dmolesUC3/cos",
+        "labels_url": "https://api.github.com/repos/dmolesUC3/cos/issues/18/labels{/name}",
+        "comments_url": "https://api.github.com/repos/dmolesUC3/cos/issues/18/comments",
+        "events_url": "https://api.github.com/repos/dmolesUC3/cos/issues/18/events",
+        "html_url": "https://github.com/dmolesUC3/cos/issues/18",
+        "id": 417456452,
+        "node_id": "MDU6SXNzdWU0MTc0NTY0NTI=",
+        "number": 18,
+        "title": "rework `cos keys` to use `cos suite`-style substring search",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-05T19:06:37Z",
+        "updated_at": "2019-03-05T19:06:37Z",
+        "closed_at": null,
+        "author_association": "OWNER",
+        "body": "It's all very well to discover [189 invalid keys](https://gist.github.com/dmolesUC3/0d59af99d4c38f94ce8a46ebb1edac4e), but it doesn't tell you just what made each key invalid."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-05T19:06:37Z"
+  },
+  {
+    "id": "9184878840",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3369329872,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "6ce867e14ab6b9a990c685b35a0fc59b9c0b44d9",
+      "before": "2938929d62b8d598a5e8ee1ab13b15189c6b9f94",
+      "commits": [
+        {
+          "sha": "6ce867e14ab6b9a990c685b35a0fc59b9c0b44d9",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Get download URL for latest JDK 11 release",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/6ce867e14ab6b9a990c685b35a0fc59b9c0b44d9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T18:30:39Z"
+  },
+  {
+    "id": "9184794329",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 42262115,
+      "name": "dmolesUC3/idea-settings",
+      "url": "https://api.github.com/repos/dmolesUC3/idea-settings"
+    },
+    "payload": {
+      "push_id": 3369286022,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "6310d57328f75558604cd6fab8454538555425ad",
+      "before": "b51c40d58251f126815a50cd77dd8770d074dd48",
+      "commits": [
+        {
+          "sha": "6310d57328f75558604cd6fab8454538555425ad",
+          "author": {
+            "email": "david@cdl-dmoles-9m.ad.ucop.edu",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@cdl-dmoles-9m.ad.ucop.edu Update find.xml, DarkBlue _DM_.icls",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/6310d57328f75558604cd6fab8454538555425ad"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T18:16:44Z"
+  },
+  {
+    "id": "9178764778",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366129470,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "a366976c369a6689a035b696b95bde2da0bd6f2d",
+      "before": "98234f7e32a2a54339107fc55de2b2bbc93fb64e",
+      "commits": [
+        {
+          "sha": "a366976c369a6689a035b696b95bde2da0bd6f2d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Fix output",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/a366976c369a6689a035b696b95bde2da0bd6f2d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T00:18:15Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178709635",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366099976,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "98234f7e32a2a54339107fc55de2b2bbc93fb64e",
+      "before": "aa82193e78791b11cb1638b9657ec25a57c96c74",
+      "commits": [
+        {
+          "sha": "98234f7e32a2a54339107fc55de2b2bbc93fb64e",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Remove extraneous",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/98234f7e32a2a54339107fc55de2b2bbc93fb64e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-05T00:04:25Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178684564",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366086426,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "aa82193e78791b11cb1638b9657ec25a57c96c74",
+      "before": "611e1dcd4343b49e940ad3eb07cc7d428e252c02",
+      "commits": [
+        {
+          "sha": "aa82193e78791b11cb1638b9657ec25a57c96c74",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add note re: locale",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/aa82193e78791b11cb1638b9657ec25a57c96c74"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-04T23:58:29Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178681125",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366084610,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "611e1dcd4343b49e940ad3eb07cc7d428e252c02",
+      "before": "965b2f08ce9f91c1f783a995b65b7485f523f6bf",
+      "commits": [
+        {
+          "sha": "611e1dcd4343b49e940ad3eb07cc7d428e252c02",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Fix typo",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/611e1dcd4343b49e940ad3eb07cc7d428e252c02"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-04T23:57:37Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178664704",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366076052,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "965b2f08ce9f91c1f783a995b65b7485f523f6bf",
+      "before": "32bf9ad2464d121560f3cbf1224ab1e1ccd846d5",
+      "commits": [
+        {
+          "sha": "965b2f08ce9f91c1f783a995b65b7485f523f6bf",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add note re certain key structures not possible in Merritt",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/965b2f08ce9f91c1f783a995b65b7485f523f6bf"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-04T23:53:43Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178652950",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366069843,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "32bf9ad2464d121560f3cbf1224ab1e1ccd846d5",
+      "before": "1301e1a97a57903f3e598acb74ebac6bb1a8bf99",
+      "commits": [
+        {
+          "sha": "32bf9ad2464d121560f3cbf1224ab1e1ccd846d5",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add summary, TOC, note re: actual Merritt non-Latin filenames",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/32bf9ad2464d121560f3cbf1224ab1e1ccd846d5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-04T23:50:55Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9178618129",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3366051263,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "1301e1a97a57903f3e598acb74ebac6bb1a8bf99",
+      "before": "4991de1627244649a074c794263e44df0e4e26ce",
+      "commits": [
+        {
+          "sha": "1301e1a97a57903f3e598acb74ebac6bb1a8bf99",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add filename results",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/1301e1a97a57903f3e598acb74ebac6bb1a8bf99"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-04T23:42:46Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9177864535",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 161562723,
+      "name": "dmolesUC3/cos",
+      "url": "https://api.github.com/repos/dmolesUC3/cos"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/dmolesUC3/cos/issues/10",
+        "repository_url": "https://api.github.com/repos/dmolesUC3/cos",
+        "labels_url": "https://api.github.com/repos/dmolesUC3/cos/issues/10/labels{/name}",
+        "comments_url": "https://api.github.com/repos/dmolesUC3/cos/issues/10/comments",
+        "events_url": "https://api.github.com/repos/dmolesUC3/cos/issues/10/events",
+        "html_url": "https://github.com/dmolesUC3/cos/issues/10",
+        "id": 406895688,
+        "node_id": "MDU6SXNzdWU0MDY4OTU2ODg=",
+        "number": 10,
+        "title": "built-in key lists for keys command should be more systematic",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2019-02-05T17:34:58Z",
+        "updated_at": "2019-03-04T21:23:58Z",
+        "closed_at": null,
+        "author_association": "OWNER",
+        "body": "The current set of key lists is fairly random and ad-hoc:\r\n\r\n1.  `Default`: default source (as `naughty-strings`, filtering out `\"\"`, `\".\"`, and leading `\"..\"`, all of which are known to fail in Amazon S3) (500 keys)\r\n2.  `disallow-backslash`: as default source, disallowing backlash (320 keys)\r\n3.  `disallow-double-backslash`: as default source, disallowing double backlash (498 keys)\r\n4.  `misc`: miscellenous potential problems, incl. path elements & unicode blocks (612 keys)\r\n5.  `naughty-strings`: [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) (504 keys)\r\n\r\nThe `naughty-strings` list is fairly reasonable, although not all that directly applicable to filenames; it tends to produce a lot of redundant failures since many of its Javascript escapes and whatnot are very similar. A better, shorter list could probably be made by boiling it down to more general cases.\r\n\r\nThe `misc` list is pretty ad-hoc and doesn't cover every Unicode code block, or even most of them.\r\n\r\nWe should come up with some systematic cases and some systematic lists based on those cases.\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/dmolesUC3/cos/issues/comments/469427249",
+        "html_url": "https://github.com/dmolesUC3/cos/issues/10#issuecomment-469427249",
+        "issue_url": "https://api.github.com/repos/dmolesUC3/cos/issues/10",
+        "id": 469427249,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ2OTQyNzI0OQ==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-04T21:23:58Z",
+        "updated_at": "2019-03-04T21:23:58Z",
+        "author_association": "OWNER",
+        "body": "The `cos suite --unicode` test now covers all Unicode characters, systematically. It does attempt to test invalid UTF8 sequences, but it's not clear how effective that test is (e.g. it may be sensitively dependent on how the AWS client library converts Go strings to JSON)."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-04T21:23:58Z"
+  }
+]

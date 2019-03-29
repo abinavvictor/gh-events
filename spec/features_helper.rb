@@ -60,11 +60,12 @@ def event_list_url(user_id)
   "https://api.github.com/user/#{user_id}/events"
 end
 
-def stub_get_json(url, body, status: 200)
+def stub_get_json(url, body, status: 200, headers: {})
+  headers[:content_type] = 'application/json; charset=utf-8' unless headers[:content_type]
   stub_request(:get, url).to_return(
     status: status,
     body: body,
-    headers: { content_type: 'application/json; charset=utf-8' }
+    headers: headers
   )
 end
 
