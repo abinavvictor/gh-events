@@ -1,6 +1,6 @@
 require 'features_helper'
 
-describe 'index' do
+describe 'home' do
   before(:each) do
     visit('/')
   end

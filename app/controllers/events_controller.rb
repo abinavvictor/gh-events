@@ -2,22 +2,25 @@ require 'octokit'
 
 class EventsController < ApplicationController
 
-  def index
+  def home
     return unless login
 
     redirect_to "/events/#{login}"
   end
 
   def list
-    @user = user_for(params[:login])
+    @user = user_for(login)
     @events = events_for(@user)
+  rescue Octokit::NotFound
+    render(template: "events/user_not_found", status: :not_found) && return
   end
-
-  private
 
   def login
-    params[:login]
+    @login ||= params[:login]
   end
+  helper_method :login
+
+  private
 
   def client
     @client ||= Octokit::Client.new
@@ -31,7 +34,6 @@ class EventsController < ApplicationController
 
   def user_for(login)
     return unless login
-
     client.user(login)
   end
 end

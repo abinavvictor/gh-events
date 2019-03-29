@@ -51,9 +51,18 @@ end
 # ------------------------------------------------------------
 # RSpec shared context
 
-def stub_get_json(url, body)
+def user_url(user_login)
+  "https://api.github.com/users/#{user_login}"
+end
+
+# can't call this `events_url` b/c Rails thinks that's a controller URL helper
+def event_list_url(user_id)
+  "https://api.github.com/user/#{user_id}/events"
+end
+
+def stub_get_json(url, body, status: 200)
   stub_request(:get, url).to_return(
-    status: 200,
+    status: status,
     body: body,
     headers: { content_type: 'application/json; charset=utf-8' }
   )
@@ -75,7 +84,7 @@ RSpec.shared_context('user', shared_context: :metadata) do
   end
 
   before :each do
-    stub_get_json("https://api.github.com/users/#{user_login}", user_json)
+    stub_get_json(user_url(user_login), user_json)
   end
 end
 
@@ -87,7 +96,7 @@ RSpec.shared_context('events', shared_context: :metadata) do
   end
 
   before :each do
-    stub_get_json("https://api.github.com/user/#{user_id}/events", events_json)
+    stub_get_json(event_list_url(user_id), events_json)
   end
 end
 
