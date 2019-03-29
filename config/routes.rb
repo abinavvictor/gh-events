@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'events/index'
+  root('events#index')
 
-  root 'events#index'
+  get('events/:id', to: 'events#list', as: 'id')
 end

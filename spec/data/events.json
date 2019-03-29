@@ -1,0 +1,2247 @@
+[
+  {
+    "id": "9337245509",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 42262115,
+      "name": "dmolesUC3/idea-settings",
+      "url": "https://api.github.com/repos/dmolesUC3/idea-settings"
+    },
+    "payload": {
+      "push_id": 3451197713,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "a53d0cd43e5760f88d3f136e1b716b96115b2549",
+      "before": "dbb26944ed3acc716bc5c016f762c7c939d46c0b",
+      "commits": [
+        {
+          "sha": "9e814f3c80fc28244e9a12daa6926100fc0700d6",
+          "author": {
+            "email": "david@localhost",
+            "name": "david"
+          },
+          "message": "IU-2019.1 <david@ArtMachine.local Update path.macros.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/9e814f3c80fc28244e9a12daa6926100fc0700d6"
+        },
+        {
+          "sha": "527848f0fc563e1c087c854fbf0573e15d3c1158",
+          "author": {
+            "email": "david@localhost",
+            "name": "david"
+          },
+          "message": "IU-2019.1 <david@artmachine.ucop.edu Update applicationLibraries.xml\tCreate notifications.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/527848f0fc563e1c087c854fbf0573e15d3c1158"
+        },
+        {
+          "sha": "29939a8779e9452496fc2661c336d6d84a359d8f",
+          "author": {
+            "email": "david@localhost",
+            "name": "david"
+          },
+          "message": "IU-2019.1 <david@DESKTOP-OQNJ068.localdomain Update applicationLibraries.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/29939a8779e9452496fc2661c336d6d84a359d8f"
+        },
+        {
+          "sha": "a53d0cd43e5760f88d3f136e1b716b96115b2549",
+          "author": {
+            "email": "david@localhost",
+            "name": "david"
+          },
+          "message": "IU-2019.1 <david@ArtMachine.local Update applicationLibraries.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/a53d0cd43e5760f88d3f136e1b716b96115b2549"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-29T00:14:09Z"
+  },
+  {
+    "id": "9335868587",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3450456479,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "6725a14d372e8ea537b19eaaf181d54328a7a86c",
+      "before": "2020e7258dca06146490c9241b4aa50ad7c0b9fe",
+      "commits": [
+        {
+          "sha": "ac7e74d4e0f6c4fe9beb82a091516f1220e40fcc",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Improve error output",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/ac7e74d4e0f6c4fe9beb82a091516f1220e40fcc"
+        },
+        {
+          "sha": "54106990ebccc181db9f2722a3d454021f47bd66",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Update to IDEA 2019.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/54106990ebccc181db9f2722a3d454021f47bd66"
+        },
+        {
+          "sha": "6725a14d372e8ea537b19eaaf181d54328a7a86c",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Hack around volume permissions issue, probably",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/6725a14d372e8ea537b19eaaf181d54328a7a86c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-28T19:42:31Z"
+  },
+  {
+    "id": "9335802359",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 21969270,
+      "name": "jenkinsci/docker",
+      "url": "https://api.github.com/repos/jenkinsci/docker"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/docker/issues/813",
+        "repository_url": "https://api.github.com/repos/jenkinsci/docker",
+        "labels_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/events",
+        "html_url": "https://github.com/jenkinsci/docker/issues/813",
+        "id": 425163560,
+        "node_id": "MDU6SXNzdWU0MjUxNjM1NjA=",
+        "number": 813,
+        "title": "Mounted docker volume /var/jenkins_home/jobs has wrong permissions",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2019-03-25T23:43:59Z",
+        "updated_at": "2019-03-28T19:31:34Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "## Problem\r\n\r\nI want to bake Jenkins configuration with [CasC](https://wiki.jenkins.io/display/JENKINS/Configuration+as+Code+Plugin) into a Docker image, but preserve job results when rebuilding/redeploying the container.\r\n\r\n### Docker commands that you execute / Actual result\r\n\r\n1. If I use a Docker volume for the entire `jenkins_home` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home:/var/jenkins_home -P -d myImage\r\n   ```\r\n\r\n   then the first CasC YAML file I `COPY` into my Docker image is preserved, and\r\n   subsequent updates in rebuilt Docker images are ignored.\r\n\r\n2. If I try using a Docker volume just for the `jobs` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home_jobs:/var/jenkins_home/jobs -P -d myImage\r\n   ```\r\n\r\n   something bad happens to the Jenkins home directory structure and I get\r\n\r\n   ```\r\n   Mar 25, 2019 11:32:59 PM hudson.util.BootFailure publish\r\n   SEVERE: Failed to initialize Jenkins\r\n   hudson.util.HudsonFailedToLoad: org.jvnet.hudson.reactor.ReactorException: java.io.IOException: \r\n   jenkins.model.InvalidBuildsDir: ${ITEM_ROOTDIR}/builds does not exist and probably cannot be \r\n   created\r\n        at hudson.WebAppMain$3.run(WebAppMain.java:250)\r\n   ```\r\n\r\n### Expected outcome\r\n\r\n- CasC `jenkins.yaml` can be baked into Dockerfile\r\n- job logs, artifacts, etc. are preserved when rebuilding / re-running a container\r\n\r\n### Have you tried a non-dockerized Jenkins and get the expected outcome?\r\n\r\n- N/A\r\n\r\n### Output of `docker version`\r\n\r\n```\r\nClient: Docker Engine - Community\r\n Version:           18.09.2\r\n API version:       1.39\r\n Go version:        go1.10.8\r\n Git commit:        6247962\r\n Built:             Sun Feb 10 04:12:39 2019\r\n OS/Arch:           darwin/amd64\r\n Experimental:      false\r\n\r\nServer: Docker Engine - Community\r\n Engine:\r\n  Version:          18.09.2\r\n  API version:      1.39 (minimum version 1.12)\r\n  Go version:       go1.10.6\r\n  Git commit:       6247962\r\n  Built:            Sun Feb 10 04:13:06 2019\r\n  OS/Arch:          linux/amd64\r\n  Experimental:     true\r\n```\r\n\r\n### Other relevant information\r\n\r\nFull project at https://github.com/dmolesUC3/mrt-jenkins-docker\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/docker/issues/comments/477739766",
+        "html_url": "https://github.com/jenkinsci/docker/issues/813#issuecomment-477739766",
+        "issue_url": "https://api.github.com/repos/jenkinsci/docker/issues/813",
+        "id": 477739766,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NzczOTc2Ng==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-28T19:31:34Z",
+        "updated_at": "2019-03-28T19:31:34Z",
+        "author_association": "NONE",
+        "body": "Workaround: install `sudo`, run as `root`, and override the `ENTRYPOINT` to run the following script, which (1) `chowns` the directory at run time and (2) uses `sudo` to run `jenkins.sh` as `jenkins`.\r\n\r\n```\r\n#!/bin/bash -e\r\n\r\nchown -R jenkins:jenkins ${JENKINS_HOME} && \\\r\n  sudo --login -u jenkins \\\r\n    JENKINS_HOME=${JENKINS_HOME} \\\r\n    JENKINS_WAR=${JENKINS_WAR} \\\r\n    COPY_REFERENCE_FILE_LOG=${COPY_REFERENCE_FILE_LOG} \\\r\n    JAVA_OPTS=${JAVA_OPTS} \\\r\n    JENKINS_SLAVE_AGENT_PORT=${JENKINS_SLAVE_AGENT_PORT} \\\r\n    JENKINS_OPTS=${JENKINS_OPTS} \\\r\n    DEBUG=${DEBUG} \\\r\n    /usr/local/bin/jenkins.sh \"$@\"\r\n```\r\n\r\nDockerfile additions, for completeness:\r\n\r\n```\r\nUSER root\r\nRUN apt-get install -y sudo\r\nCOPY scripts/fix-perms-and-start-jenkins.sh /usr/local/bin/\r\nENTRYPOINT [\"/sbin/tini\", \"-vvv\", \"--\", \"/usr/local/bin/fix-perms-and-start-jenkins.sh\"]\r\n```"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-28T19:31:34Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9328754940",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3446744712,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2020e7258dca06146490c9241b4aa50ad7c0b9fe",
+      "before": "8bdfa7941686444f675b1fe36f3162c5eae01a09",
+      "commits": [
+        {
+          "sha": "2020e7258dca06146490c9241b4aa50ad7c0b9fe",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Update TODO",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/2020e7258dca06146490c9241b4aa50ad7c0b9fe"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-27T23:16:21Z"
+  },
+  {
+    "id": "9328746998",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 21969270,
+      "name": "jenkinsci/docker",
+      "url": "https://api.github.com/repos/jenkinsci/docker"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/docker/issues/813",
+        "repository_url": "https://api.github.com/repos/jenkinsci/docker",
+        "labels_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/events",
+        "html_url": "https://github.com/jenkinsci/docker/issues/813",
+        "id": 425163560,
+        "node_id": "MDU6SXNzdWU0MjUxNjM1NjA=",
+        "number": 813,
+        "title": "Mounted docker volume /var/jenkins_home/jobs has wrong permissions",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-25T23:43:59Z",
+        "updated_at": "2019-03-27T23:14:26Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "## Problem\r\n\r\nI want to bake Jenkins configuration with [CasC](https://wiki.jenkins.io/display/JENKINS/Configuration+as+Code+Plugin) into a Docker image, but preserve job results when rebuilding/redeploying the container.\r\n\r\n### Docker commands that you execute / Actual result\r\n\r\n1. If I use a Docker volume for the entire `jenkins_home` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home:/var/jenkins_home -P -d myImage\r\n   ```\r\n\r\n   then the first CasC YAML file I `COPY` into my Docker image is preserved, and\r\n   subsequent updates in rebuilt Docker images are ignored.\r\n\r\n2. If I try using a Docker volume just for the `jobs` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home_jobs:/var/jenkins_home/jobs -P -d myImage\r\n   ```\r\n\r\n   something bad happens to the Jenkins home directory structure and I get\r\n\r\n   ```\r\n   Mar 25, 2019 11:32:59 PM hudson.util.BootFailure publish\r\n   SEVERE: Failed to initialize Jenkins\r\n   hudson.util.HudsonFailedToLoad: org.jvnet.hudson.reactor.ReactorException: java.io.IOException: \r\n   jenkins.model.InvalidBuildsDir: ${ITEM_ROOTDIR}/builds does not exist and probably cannot be \r\n   created\r\n        at hudson.WebAppMain$3.run(WebAppMain.java:250)\r\n   ```\r\n\r\n### Expected outcome\r\n\r\n- CasC `jenkins.yaml` can be baked into Dockerfile\r\n- job logs, artifacts, etc. are preserved when rebuilding / re-running a container\r\n\r\n### Have you tried a non-dockerized Jenkins and get the expected outcome?\r\n\r\n- N/A\r\n\r\n### Output of `docker version`\r\n\r\n```\r\nClient: Docker Engine - Community\r\n Version:           18.09.2\r\n API version:       1.39\r\n Go version:        go1.10.8\r\n Git commit:        6247962\r\n Built:             Sun Feb 10 04:12:39 2019\r\n OS/Arch:           darwin/amd64\r\n Experimental:      false\r\n\r\nServer: Docker Engine - Community\r\n Engine:\r\n  Version:          18.09.2\r\n  API version:      1.39 (minimum version 1.12)\r\n  Go version:       go1.10.6\r\n  Git commit:       6247962\r\n  Built:            Sun Feb 10 04:13:06 2019\r\n  OS/Arch:          linux/amd64\r\n  Experimental:     true\r\n```\r\n\r\n### Other relevant information\r\n\r\nFull project at https://github.com/dmolesUC3/mrt-jenkins-docker\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jenkinsci/docker/issues/comments/477382374",
+        "html_url": "https://github.com/jenkinsci/docker/issues/813#issuecomment-477382374",
+        "issue_url": "https://api.github.com/repos/jenkinsci/docker/issues/813",
+        "id": 477382374,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NzM4MjM3NA==",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2019-03-27T23:14:26Z",
+        "updated_at": "2019-03-27T23:14:26Z",
+        "author_association": "NONE",
+        "body": "After further investigation, it looks ass through the problem is that the mounted `/var/jenkins_home/jobs` is not writable by `jenkins`. In fact, nothing in `/var/jenkins_home` is:\r\n\r\n```\r\njenkins@e1e903afe125:/$ ls -l /var/jenkins_home/\r\ntotal 16\r\n-rw-r--r-- 1 root root 1605 Mar 25 23:23 jenkins.yaml\r\ndrwxr-xr-x 2 root root 4096 Mar 27 22:58 jobs\r\n-rw-rw-r-- 1 root root 7152 Feb 14 08:55 tini_pub.gpg\r\n```\r\n\r\nI tried adding an explicit `RUN chown` command to the Dockerfile:\r\n\r\n```\r\nUSER root\r\nRUN chown -R jenkins:jenkins /var/jenkins_home\r\n\r\n# make sure we still run jenkins as jenkins\r\nUSER jenkins\r\n```\r\n\r\nbut this had no effect, even after blowing away the Docker volume and starting a fresh container.\r\n\r\nAs a workaround, I was able to start a container with an interactive root shell, `chown` the directory again, `commit` that, and then run the committed version with an explicit endpoint:\r\n\r\n```\r\n$ docker run -v jenkins_home_jobs:/var/jenkins_home/jobs -P -it -u root --entrypoint /bin/bash mrt-jenkins-docker \r\nroot@3aa74d03ad9a:/# chown -R jenkins:jenkins /var/jenkins_home\r\nroot@3aa74d03ad9a:/# exit\r\nexit\r\ncdl-dmoles-9m:mrt-jenkins-docker david$ docker commit 3aa7 permfix\r\nsha256:4054d5b0c67699678bd889a802d78364c4d4bc09ca7dacadc19473f16c36b969\r\ncdl-dmoles-9m:mrt-jenkins-docker david$ docker run -v jenkins_home_jobs:/var/jenkins_home/jobs -P -d --entrypoint /sbin/tini permfix -- /usr/local/bin/jenkins.sh\r\n552f04dbe4fe7b4152d51bad5db0ea7ee2c84cfc3cd9a88c2550cc6b3cb00367\r\n```\r\n\r\nI can probably script all that, but it seems as though there should be a better way."
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-27T23:14:26Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9328686476",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3446707280,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "8bdfa7941686444f675b1fe36f3162c5eae01a09",
+      "before": "9ec4161ae7071609c33087f824b06677dc023024",
+      "commits": [
+        {
+          "sha": "467df09a6c5d2c0450dc96752df995beb20e0ac8",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Reorder Dockerfile to group related operations",
+          "distinct": false,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/467df09a6c5d2c0450dc96752df995beb20e0ac8"
+        },
+        {
+          "sha": "3d75d0a13323a514cba41bd216f970ee12351a6b",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add notes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/3d75d0a13323a514cba41bd216f970ee12351a6b"
+        },
+        {
+          "sha": "8bdfa7941686444f675b1fe36f3162c5eae01a09",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Try mounting just jobs directory as a volume",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/8bdfa7941686444f675b1fe36f3162c5eae01a09"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-27T23:00:02Z"
+  },
+  {
+    "id": "9327867106",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "ref": "ansible",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "A sandbox Docker image for Merritt continous delivery development",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2019-03-27T20:30:28Z"
+  },
+  {
+    "id": "9312124420",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3437962149,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "761dbf1521cf01ea15e8bd2ddde8fea6957c805d",
+      "before": "e0c9ef3048bf45bbd4277f5d811095981e3f0522",
+      "commits": [
+        {
+          "sha": "761dbf1521cf01ea15e8bd2ddde8fea6957c805d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Fix tools",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/761dbf1521cf01ea15e8bd2ddde8fea6957c805d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T23:47:04Z"
+  },
+  {
+    "id": "9312119402",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 174395495,
+      "name": "dmolesUC3/mrt-core2",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-core2"
+    },
+    "payload": {
+      "push_id": 3437959388,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e0c9ef3048bf45bbd4277f5d811095981e3f0522",
+      "before": "6ebbe3c381a20870bbad613c5634f02062f64919",
+      "commits": [
+        {
+          "sha": "e0c9ef3048bf45bbd4277f5d811095981e3f0522",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Parameterize JDK version",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-core2/commits/e0c9ef3048bf45bbd4277f5d811095981e3f0522"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T23:45:43Z"
+  },
+  {
+    "id": "9312118729",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3437958998,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "9ec4161ae7071609c33087f824b06677dc023024",
+      "before": "def08e8e70afc97172945a64e46a021d26ef1d45",
+      "commits": [
+        {
+          "sha": "9ec4161ae7071609c33087f824b06677dc023024",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Separate JDK8 and JDK 11 jobs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/9ec4161ae7071609c33087f824b06677dc023024"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T23:45:32Z"
+  },
+  {
+    "id": "9312112654",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 21969270,
+      "name": "jenkinsci/docker",
+      "url": "https://api.github.com/repos/jenkinsci/docker"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/jenkinsci/docker/issues/813",
+        "repository_url": "https://api.github.com/repos/jenkinsci/docker",
+        "labels_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/comments",
+        "events_url": "https://api.github.com/repos/jenkinsci/docker/issues/813/events",
+        "html_url": "https://github.com/jenkinsci/docker/issues/813",
+        "id": 425163560,
+        "node_id": "MDU6SXNzdWU0MjUxNjM1NjA=",
+        "number": 813,
+        "title": "Preserve job output (only) as Docker volume",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-25T23:43:59Z",
+        "updated_at": "2019-03-25T23:43:59Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "## Problem\r\n\r\nI want to bake Jenkins configuration with [CasC](https://wiki.jenkins.io/display/JENKINS/Configuration+as+Code+Plugin) into a Docker image, but preserve job results when rebuilding/redeploying the container.\r\n\r\n### Docker commands that you execute / Actual result\r\n\r\n1. If I use a Docker volume for the entire `jenkins_home` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home:/var/jenkins_home -P -d myImage\r\n   ```\r\n\r\n   then the first CasC YAML file I `COPY` into my Docker image is preserved, and\r\n   subsequent updates in rebuilt Docker images are ignored.\r\n\r\n2. If I try using a Docker volume just for the `jobs` directory, as:\r\n\r\n   ```\r\n   docker run -v jenkins_home_jobs:/var/jenkins_home/jobs -P -d myImage\r\n   ```\r\n\r\n   something bad happens to the Jenkins home directory structure and I get\r\n\r\n   ```\r\n   Mar 25, 2019 11:32:59 PM hudson.util.BootFailure publish\r\nSEVERE: Failed to initialize Jenkins\r\nhudson.util.HudsonFailedToLoad: org.jvnet.hudson.reactor.ReactorException: java.io.IOException: jenkins.model.InvalidBuildsDir: ${ITEM_ROOTDIR}/builds does not exist and probably cannot be created\r\n        at hudson.WebAppMain$3.run(WebAppMain.java:250)\r\n   ```\r\n\r\n### Expected outcome\r\n\r\n- CasC `jenkins.yaml` can be baked into Dockerfile\r\n- job logs, artifacts, etc. are preserved when rebuilding / re-running a container\r\n\r\n### Have you tried a non-dockerized Jenkins and get the expected outcome?\r\n\r\n- N/A\r\n\r\n### Output of `docker version`\r\n\r\n```\r\nClient: Docker Engine - Community\r\n Version:           18.09.2\r\n API version:       1.39\r\n Go version:        go1.10.8\r\n Git commit:        6247962\r\n Built:             Sun Feb 10 04:12:39 2019\r\n OS/Arch:           darwin/amd64\r\n Experimental:      false\r\n\r\nServer: Docker Engine - Community\r\n Engine:\r\n  Version:          18.09.2\r\n  API version:      1.39 (minimum version 1.12)\r\n  Go version:       go1.10.6\r\n  Git commit:       6247962\r\n  Built:            Sun Feb 10 04:13:06 2019\r\n  OS/Arch:          linux/amd64\r\n  Experimental:     true\r\n```\r\n\r\n### Other relevant information\r\n\r\nFull project at https://github.com/dmolesUC3/mrt-jenkins-docker\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-25T23:43:59Z",
+    "org": {
+      "id": 107424,
+      "login": "jenkinsci",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/jenkinsci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107424?"
+    }
+  },
+  {
+    "id": "9311878522",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 152299636,
+      "name": "dmolesUC3/mrt-jenkins-docker",
+      "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker"
+    },
+    "payload": {
+      "push_id": 3437827591,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "def08e8e70afc97172945a64e46a021d26ef1d45",
+      "before": "3e4ab8b1dc5e25e800bb36a9fe628728dc0c6c1b",
+      "commits": [
+        {
+          "sha": "2e195f0557d400ee02e607093720e745a7c330a6",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Use a docker volume for /var/jenkins_home so we don't lose job history when we blow away the container",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/2e195f0557d400ee02e607093720e745a7c330a6"
+        },
+        {
+          "sha": "def08e8e70afc97172945a64e46a021d26ef1d45",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Check for 'Jenkins is fully up and running' log message instead of existence of logs directory",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/mrt-jenkins-docker/commits/def08e8e70afc97172945a64e46a021d26ef1d45"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T22:46:39Z"
+  },
+  {
+    "id": "9310069492",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3436881855,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "425a2602eaa6d65f32fefda3f7e597a37c1a569a",
+      "before": "6d8a43999afe1065a1e3ecabaa9f6f9f3513abae",
+      "commits": [
+        {
+          "sha": "425a2602eaa6d65f32fefda3f7e597a37c1a569a",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add note re: costs/charges",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/425a2602eaa6d65f32fefda3f7e597a37c1a569a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:53:03Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9310008602",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3436850539,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "6d8a43999afe1065a1e3ecabaa9f6f9f3513abae",
+      "before": "bda2c7bb8557134290f8353c31b2de59df9bd8ed",
+      "commits": [
+        {
+          "sha": "6d8a43999afe1065a1e3ecabaa9f6f9f3513abae",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add note re: Dryad charges",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/6d8a43999afe1065a1e3ecabaa9f6f9f3513abae"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:44:34Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309893127",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3436790828,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "bda2c7bb8557134290f8353c31b2de59df9bd8ed",
+      "before": "3e1c472a09791af9414d140125f51aa4f064c0b3",
+      "commits": [
+        {
+          "sha": "bda2c7bb8557134290f8353c31b2de59df9bd8ed",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add 'Minio next steps'",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/bda2c7bb8557134290f8353c31b2de59df9bd8ed"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:28:26Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309785523",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "ref": "2018.6",
+      "ref_type": "tag",
+      "master_branch": "master",
+      "description": "Merritt Dashboard",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:13:49Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309778744",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "ref": "lostorage",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:12:55Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309778361",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "push_id": 3436732788,
+      "size": 8,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f4430d16f58f9202dc8e504ab559a701aef6f382",
+      "before": "ad3af80b3a4f53756f44c6f9d77a113506876d2b",
+      "commits": [
+        {
+          "sha": "037bd4a0f1dfa4af584641bd24a2e13e1385717c",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Fix LostorageController redirect logic, probably",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/037bd4a0f1dfa4af584641bd24a2e13e1385717c"
+        },
+        {
+          "sha": "f84f03f999675618e2fe172019446ec2edd5c990",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Fix email validation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/f84f03f999675618e2fe172019446ec2edd5c990"
+        },
+        {
+          "sha": "4834aa3b0429bf978311d734bd2ad7f4d73605f7",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Pin sqlite3 to 1.3.12",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/4834aa3b0429bf978311d734bd2ad7f4d73605f7"
+        },
+        {
+          "sha": "cf999011f1b64c73cdbfdbe57372abbf8dea0d6d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Update chromedriver-helper",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/cf999011f1b64c73cdbfdbe57372abbf8dea0d6d"
+        },
+        {
+          "sha": "4566dd1aa14d7682a58e7afeb1245a434258121e",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Bundle with new gems",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/4566dd1aa14d7682a58e7afeb1245a434258121e"
+        },
+        {
+          "sha": "d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Downgrade to FactoryBot 4",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2"
+        },
+        {
+          "sha": "2d2276488362154a5f5e1cd0aa1542891092d473",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Upgrade Rails to get latest security fixes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/2d2276488362154a5f5e1cd0aa1542891092d473"
+        },
+        {
+          "sha": "f4430d16f58f9202dc8e504ab559a701aef6f382",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Merge pull request #33 from CDLUC3/lostorage\n\n1. Fix LostorageController redirect logic\r\n2. Update gems to get security fixes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/f4430d16f58f9202dc8e504ab559a701aef6f382"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:12:51Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309778264",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 33,
+      "pull_request": {
+        "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33",
+        "id": 264212321,
+        "node_id": "MDExOlB1bGxSZXF1ZXN0MjY0MjEyMzIx",
+        "html_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33",
+        "diff_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33.diff",
+        "patch_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33.patch",
+        "issue_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33",
+        "number": 33,
+        "state": "closed",
+        "locked": false,
+        "title": "Lostorage",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "1. Fix LostorageController redirect logic\r\n2. Update gems to get security fixes",
+        "created_at": "2019-03-25T17:12:32Z",
+        "updated_at": "2019-03-25T17:12:50Z",
+        "closed_at": "2019-03-25T17:12:50Z",
+        "merged_at": "2019-03-25T17:12:50Z",
+        "merge_commit_sha": "f4430d16f58f9202dc8e504ab559a701aef6f382",
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/commits",
+        "review_comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/comments",
+        "review_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33/comments",
+        "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/2d2276488362154a5f5e1cd0aa1542891092d473",
+        "head": {
+          "label": "CDLUC3:lostorage",
+          "ref": "lostorage",
+          "sha": "2d2276488362154a5f5e1cd0aa1542891092d473",
+          "user": {
+            "login": "CDLUC3",
+            "id": 6484675,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CDLUC3",
+            "html_url": "https://github.com/CDLUC3",
+            "followers_url": "https://api.github.com/users/CDLUC3/followers",
+            "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+            "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+            "repos_url": "https://api.github.com/users/CDLUC3/repos",
+            "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131055919,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMzEwNTU5MTk=",
+            "name": "mrt-dashboard",
+            "full_name": "CDLUC3/mrt-dashboard",
+            "private": false,
+            "owner": {
+              "login": "CDLUC3",
+              "id": 6484675,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/CDLUC3",
+              "html_url": "https://github.com/CDLUC3",
+              "followers_url": "https://api.github.com/users/CDLUC3/followers",
+              "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+              "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+              "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+              "repos_url": "https://api.github.com/users/CDLUC3/repos",
+              "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "description": "Merritt Dashboard",
+            "fork": false,
+            "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard",
+            "forks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/forks",
+            "keys_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/teams",
+            "hooks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/events",
+            "assignees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/tags",
+            "blobs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/languages",
+            "stargazers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscription",
+            "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/merges",
+            "archive_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/downloads",
+            "issues_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/deployments",
+            "created_at": "2018-04-25T19:47:57Z",
+            "updated_at": "2019-02-08T22:47:23Z",
+            "pushed_at": "2019-03-25T17:12:50Z",
+            "git_url": "git://github.com/CDLUC3/mrt-dashboard.git",
+            "ssh_url": "git@github.com:CDLUC3/mrt-dashboard.git",
+            "clone_url": "https://github.com/CDLUC3/mrt-dashboard.git",
+            "svn_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "homepage": null,
+            "size": 125729,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "CDLUC3:master",
+          "ref": "master",
+          "sha": "ad3af80b3a4f53756f44c6f9d77a113506876d2b",
+          "user": {
+            "login": "CDLUC3",
+            "id": 6484675,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CDLUC3",
+            "html_url": "https://github.com/CDLUC3",
+            "followers_url": "https://api.github.com/users/CDLUC3/followers",
+            "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+            "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+            "repos_url": "https://api.github.com/users/CDLUC3/repos",
+            "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131055919,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMzEwNTU5MTk=",
+            "name": "mrt-dashboard",
+            "full_name": "CDLUC3/mrt-dashboard",
+            "private": false,
+            "owner": {
+              "login": "CDLUC3",
+              "id": 6484675,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/CDLUC3",
+              "html_url": "https://github.com/CDLUC3",
+              "followers_url": "https://api.github.com/users/CDLUC3/followers",
+              "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+              "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+              "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+              "repos_url": "https://api.github.com/users/CDLUC3/repos",
+              "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "description": "Merritt Dashboard",
+            "fork": false,
+            "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard",
+            "forks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/forks",
+            "keys_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/teams",
+            "hooks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/events",
+            "assignees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/tags",
+            "blobs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/languages",
+            "stargazers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscription",
+            "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/merges",
+            "archive_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/downloads",
+            "issues_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/deployments",
+            "created_at": "2018-04-25T19:47:57Z",
+            "updated_at": "2019-02-08T22:47:23Z",
+            "pushed_at": "2019-03-25T17:12:50Z",
+            "git_url": "git://github.com/CDLUC3/mrt-dashboard.git",
+            "ssh_url": "git@github.com:CDLUC3/mrt-dashboard.git",
+            "clone_url": "https://github.com/CDLUC3/mrt-dashboard.git",
+            "svn_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "homepage": null,
+            "size": 125729,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33"
+          },
+          "html": {
+            "href": "https://github.com/CDLUC3/mrt-dashboard/pull/33"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/2d2276488362154a5f5e1cd0aa1542891092d473"
+          }
+        },
+        "author_association": "COLLABORATOR",
+        "merged": true,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 7,
+        "additions": 155,
+        "deletions": 112,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:12:50Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309776069",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 33,
+      "pull_request": {
+        "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33",
+        "id": 264212321,
+        "node_id": "MDExOlB1bGxSZXF1ZXN0MjY0MjEyMzIx",
+        "html_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33",
+        "diff_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33.diff",
+        "patch_url": "https://github.com/CDLUC3/mrt-dashboard/pull/33.patch",
+        "issue_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33",
+        "number": 33,
+        "state": "open",
+        "locked": false,
+        "title": "Lostorage",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "1. Fix LostorageController redirect logic\r\n2. Update gems to get security fixes",
+        "created_at": "2019-03-25T17:12:32Z",
+        "updated_at": "2019-03-25T17:12:32Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/commits",
+        "review_comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/comments",
+        "review_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33/comments",
+        "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/2d2276488362154a5f5e1cd0aa1542891092d473",
+        "head": {
+          "label": "CDLUC3:lostorage",
+          "ref": "lostorage",
+          "sha": "2d2276488362154a5f5e1cd0aa1542891092d473",
+          "user": {
+            "login": "CDLUC3",
+            "id": 6484675,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CDLUC3",
+            "html_url": "https://github.com/CDLUC3",
+            "followers_url": "https://api.github.com/users/CDLUC3/followers",
+            "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+            "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+            "repos_url": "https://api.github.com/users/CDLUC3/repos",
+            "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131055919,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMzEwNTU5MTk=",
+            "name": "mrt-dashboard",
+            "full_name": "CDLUC3/mrt-dashboard",
+            "private": false,
+            "owner": {
+              "login": "CDLUC3",
+              "id": 6484675,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/CDLUC3",
+              "html_url": "https://github.com/CDLUC3",
+              "followers_url": "https://api.github.com/users/CDLUC3/followers",
+              "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+              "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+              "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+              "repos_url": "https://api.github.com/users/CDLUC3/repos",
+              "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "description": "Merritt Dashboard",
+            "fork": false,
+            "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard",
+            "forks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/forks",
+            "keys_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/teams",
+            "hooks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/events",
+            "assignees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/tags",
+            "blobs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/languages",
+            "stargazers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscription",
+            "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/merges",
+            "archive_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/downloads",
+            "issues_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/deployments",
+            "created_at": "2018-04-25T19:47:57Z",
+            "updated_at": "2019-02-08T22:47:23Z",
+            "pushed_at": "2019-03-21T21:22:10Z",
+            "git_url": "git://github.com/CDLUC3/mrt-dashboard.git",
+            "ssh_url": "git@github.com:CDLUC3/mrt-dashboard.git",
+            "clone_url": "https://github.com/CDLUC3/mrt-dashboard.git",
+            "svn_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "homepage": null,
+            "size": 125729,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 2,
+            "license": null,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "CDLUC3:master",
+          "ref": "master",
+          "sha": "ad3af80b3a4f53756f44c6f9d77a113506876d2b",
+          "user": {
+            "login": "CDLUC3",
+            "id": 6484675,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CDLUC3",
+            "html_url": "https://github.com/CDLUC3",
+            "followers_url": "https://api.github.com/users/CDLUC3/followers",
+            "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+            "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+            "repos_url": "https://api.github.com/users/CDLUC3/repos",
+            "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131055919,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMzEwNTU5MTk=",
+            "name": "mrt-dashboard",
+            "full_name": "CDLUC3/mrt-dashboard",
+            "private": false,
+            "owner": {
+              "login": "CDLUC3",
+              "id": 6484675,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0ODQ2NzU=",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/6484675?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/CDLUC3",
+              "html_url": "https://github.com/CDLUC3",
+              "followers_url": "https://api.github.com/users/CDLUC3/followers",
+              "following_url": "https://api.github.com/users/CDLUC3/following{/other_user}",
+              "gists_url": "https://api.github.com/users/CDLUC3/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/CDLUC3/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/CDLUC3/subscriptions",
+              "organizations_url": "https://api.github.com/users/CDLUC3/orgs",
+              "repos_url": "https://api.github.com/users/CDLUC3/repos",
+              "events_url": "https://api.github.com/users/CDLUC3/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/CDLUC3/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "description": "Merritt Dashboard",
+            "fork": false,
+            "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard",
+            "forks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/forks",
+            "keys_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/teams",
+            "hooks_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/events",
+            "assignees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/tags",
+            "blobs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/languages",
+            "stargazers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/subscription",
+            "commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/merges",
+            "archive_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/downloads",
+            "issues_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/deployments",
+            "created_at": "2018-04-25T19:47:57Z",
+            "updated_at": "2019-02-08T22:47:23Z",
+            "pushed_at": "2019-03-21T21:22:10Z",
+            "git_url": "git://github.com/CDLUC3/mrt-dashboard.git",
+            "ssh_url": "git@github.com:CDLUC3/mrt-dashboard.git",
+            "clone_url": "https://github.com/CDLUC3/mrt-dashboard.git",
+            "svn_url": "https://github.com/CDLUC3/mrt-dashboard",
+            "homepage": null,
+            "size": 125729,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 2,
+            "license": null,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33"
+          },
+          "html": {
+            "href": "https://github.com/CDLUC3/mrt-dashboard/pull/33"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/issues/33/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/pulls/33/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/CDLUC3/mrt-dashboard/statuses/2d2276488362154a5f5e1cd0aa1542891092d473"
+          }
+        },
+        "author_association": "COLLABORATOR",
+        "merged": false,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 7,
+        "additions": 155,
+        "deletions": 112,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-25T17:12:32Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309425011",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3436552413,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "3e1c472a09791af9414d140125f51aa4f064c0b3",
+      "before": "f9e9a6989f0ab22a62e454e164b5114db0b62610",
+      "commits": [
+        {
+          "sha": "3e1c472a09791af9414d140125f51aa4f064c0b3",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add timeline",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/3e1c472a09791af9414d140125f51aa4f064c0b3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T16:26:56Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9309362015",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 103305734,
+      "name": "CDLUC3/mrt-doc",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-doc"
+    },
+    "payload": {
+      "push_id": 3436520406,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f9e9a6989f0ab22a62e454e164b5114db0b62610",
+      "before": "6f7821d766c5f68ff27cc9458a03b43f9f7f942d",
+      "commits": [
+        {
+          "sha": "f9e9a6989f0ab22a62e454e164b5114db0b62610",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Add 2019-03-22-Berkeley-DAMS.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-doc/commits/f9e9a6989f0ab22a62e454e164b5114db0b62610"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-25T16:19:09Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9301930117",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 42262115,
+      "name": "dmolesUC3/idea-settings",
+      "url": "https://api.github.com/repos/dmolesUC3/idea-settings"
+    },
+    "payload": {
+      "push_id": 3432303085,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "dbb26944ed3acc716bc5c016f762c7c939d46c0b",
+      "before": "d68ad0a2896f27828b96845bf07f0c6a1ff10a94",
+      "commits": [
+        {
+          "sha": "dbb26944ed3acc716bc5c016f762c7c939d46c0b",
+          "author": {
+            "email": "david@10.0.1.35",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@ArtMachine.local Update find.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/dbb26944ed3acc716bc5c016f762c7c939d46c0b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-24T03:41:58Z"
+  },
+  {
+    "id": "9292659838",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 42262115,
+      "name": "dmolesUC3/idea-settings",
+      "url": "https://api.github.com/repos/dmolesUC3/idea-settings"
+    },
+    "payload": {
+      "push_id": 3427030304,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "d68ad0a2896f27828b96845bf07f0c6a1ff10a94",
+      "before": "2e936448aa238b6bf9c9d91af15314d9f22f7a1f",
+      "commits": [
+        {
+          "sha": "d68ad0a2896f27828b96845bf07f0c6a1ff10a94",
+          "author": {
+            "email": "david@10.0.1.35",
+            "name": "david"
+          },
+          "message": "IU-2018.3.5 <david@ArtMachine.local Update find.xml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/dmolesUC3/idea-settings/commits/d68ad0a2896f27828b96845bf07f0c6a1ff10a94"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-22T04:17:34Z"
+  },
+  {
+    "id": "9291077045",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "ref": "2018.6.rc.3",
+      "ref_type": "tag",
+      "master_branch": "master",
+      "description": "Merritt Dashboard",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2019-03-21T21:22:11Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9291076551",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "push_id": 3426151244,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/lostorage",
+      "head": "2d2276488362154a5f5e1cd0aa1542891092d473",
+      "before": "d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2",
+      "commits": [
+        {
+          "sha": "2d2276488362154a5f5e1cd0aa1542891092d473",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Upgrade Rails to get latest security fixes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/2d2276488362154a5f5e1cd0aa1542891092d473"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-21T21:22:06Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9290958825",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "ref": "2018.6.rc.2",
+      "ref_type": "tag",
+      "master_branch": "master",
+      "description": "Merritt Dashboard",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2019-03-21T21:02:10Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9290872379",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "push_id": 3426044464,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/lostorage",
+      "head": "d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2",
+      "before": "4566dd1aa14d7682a58e7afeb1245a434258121e",
+      "commits": [
+        {
+          "sha": "d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Downgrade to FactoryBot 4",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/d2529ee3c1a061b4a7cf63cbafb867cd8d92f4b2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-21T20:48:26Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9290831097",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 131055919,
+      "name": "CDLUC3/mrt-dashboard",
+      "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard"
+    },
+    "payload": {
+      "push_id": 3426022957,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/lostorage",
+      "head": "4566dd1aa14d7682a58e7afeb1245a434258121e",
+      "before": "f84f03f999675618e2fe172019446ec2edd5c990",
+      "commits": [
+        {
+          "sha": "4834aa3b0429bf978311d734bd2ad7f4d73605f7",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Pin sqlite3 to 1.3.12",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/4834aa3b0429bf978311d734bd2ad7f4d73605f7"
+        },
+        {
+          "sha": "cf999011f1b64c73cdbfdbe57372abbf8dea0d6d",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Update chromedriver-helper",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/cf999011f1b64c73cdbfdbe57372abbf8dea0d6d"
+        },
+        {
+          "sha": "4566dd1aa14d7682a58e7afeb1245a434258121e",
+          "author": {
+            "email": "david.moles@ucop.edu",
+            "name": "David Moles"
+          },
+          "message": "Bundle with new gems",
+          "distinct": true,
+          "url": "https://api.github.com/repos/CDLUC3/mrt-dashboard/commits/4566dd1aa14d7682a58e7afeb1245a434258121e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2019-03-21T20:41:45Z",
+    "org": {
+      "id": 6484675,
+      "login": "CDLUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/CDLUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6484675?"
+    }
+  },
+  {
+    "id": "9290816080",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10374934,
+      "login": "dmolesUC3",
+      "display_login": "dmolesUC3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmolesUC3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10374934?"
+    },
+    "repo": {
+      "id": 30272,
+      "name": "sparklemotion/sqlite3-ruby",
+      "url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby/issues/257",
+        "repository_url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby",
+        "labels_url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby/issues/257/labels{/name}",
+        "comments_url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby/issues/257/comments",
+        "events_url": "https://api.github.com/repos/sparklemotion/sqlite3-ruby/issues/257/events",
+        "html_url": "https://github.com/sparklemotion/sqlite3-ruby/issues/257",
+        "id": 423931286,
+        "node_id": "MDU6SXNzdWU0MjM5MzEyODY=",
+        "number": 257,
+        "title": "Error installing 1.3.13+ on macOS 10.14",
+        "user": {
+          "login": "dmolesUC3",
+          "id": 10374934,
+          "node_id": "MDQ6VXNlcjEwMzc0OTM0",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/10374934?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmolesUC3",
+          "html_url": "https://github.com/dmolesUC3",
+          "followers_url": "https://api.github.com/users/dmolesUC3/followers",
+          "following_url": "https://api.github.com/users/dmolesUC3/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmolesUC3/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmolesUC3/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmolesUC3/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmolesUC3/orgs",
+          "repos_url": "https://api.github.com/users/dmolesUC3/repos",
+          "events_url": "https://api.github.com/users/dmolesUC3/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmolesUC3/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-03-21T20:39:20Z",
+        "updated_at": "2019-03-21T20:39:20Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "body": "Versions 1.4.0 and 1.3.13 both fail with `Makefile:88: *** missing separator.  Stop.`\r\n\r\n```\r\n$ gem install sqlite3 -v '1.3.13' --source 'http://rubygems.org/'\r\nBuilding native extensions.  This could take a while...\r\nERROR:  Error installing sqlite3:\r\n        ERROR: Failed to build gem native extension.\r\n\r\n    current directory: /Users/david/.rvm/gems/ruby-2.4.4/gems/sqlite3-1.3.13/ext/sqlite3\r\n/Users/david/.rvm/rubies/ruby-2.4.4/bin/ruby -r ./siteconf20190321-13475-1s6r07k.rb extconf.rb\r\nchecking for sqlite3.h... yes\r\nchecking for pthread_create() in -lpthread... yes\r\nchecking for sqlite3_libversion_number() in -lsqlite3... yes\r\nchecking for rb_proc_arity()... yes\r\nchecking for rb_integer_pack()... yes\r\nchecking for sqlite3_initialize()... yes\r\nchecking for sqlite3_backup_init()... yes\r\nchecking for sqlite3_column_database_name()... yes\r\nchecking for sqlite3_enable_load_extension()... no\r\nchecking for sqlite3_load_extension()... no\r\nchecking for sqlite3_open_v2()... yes\r\nchecking for sqlite3_prepare_v2()... yes\r\nchecking for sqlite3_int64 in sqlite3.h... yes\r\nchecking for sqlite3_uint64 in sqlite3.h... yes\r\ncreating Makefile\r\n\r\ncurrent directory: /Users/david/.rvm/gems/ruby-2.4.4/gems/sqlite3-1.3.13/ext/sqlite3\r\nmake \"DESTDIR=\" clean\r\nMakefile:88: *** missing separator.  Stop.\r\n\r\ncurrent directory: /Users/david/.rvm/gems/ruby-2.4.4/gems/sqlite3-1.3.13/ext/sqlite3\r\nmake \"DESTDIR=\"\r\nMakefile:88: *** missing separator.  Stop.\r\n\r\nmake failed, exit code 2\r\n```"
+      }
+    },
+    "public": true,
+    "created_at": "2019-03-21T20:39:20Z",
+    "org": {
+      "id": 1851072,
+      "login": "sparklemotion",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/sparklemotion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1851072?"
+    }
+  }
+]
