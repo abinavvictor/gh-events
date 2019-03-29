@@ -23,7 +23,10 @@ class UILibrary
     if system('which sass-lint > /dev/null 2>&1')
       puts "Checking SCSS style:\n  #{sass_lint_cmd}\n\n"
       output, status = Open3.capture2e(sass_lint_cmd)
-      (warn(output); raise) unless status == 0
+      unless status == 0
+        warn(output)
+        raise
+      end
     else
       puts 'sass-lint not found in $PATH; skipping style checks'
     end
@@ -31,19 +34,28 @@ class UILibrary
 
   def compile_css!
     raise 'Can’t process SCSS without sass or sassc' unless sass_cmd
+
     puts "Processing source files from #{ui_library_path}"
     puts "                  to target #{stylesheets_path}\n\n"
     Dir.glob("#{scss_path}/*.scss").each do |infile|
       in_basename = File.basename(infile)
       next if in_basename.starts_with?('_')
-      outfile = infile.sub(scss_path.to_s, stylesheets_path.to_s).sub(/.scss$/, '.css')
-      puts "  Compiling #{relative_path(infile)} to #{relative_path(outfile)}"
-      output, status = Open3.capture2e("#{sass_cmd} '#{infile}' > '#{outfile}'")
-      (warn(output); raise) unless status == 0
+
+      compile_css(infile)
     end
   end
 
   private
+
+  def compile_css(infile)
+    outfile = infile.sub(scss_path.to_s, stylesheets_path.to_s).sub(/.scss$/, '.css')
+    puts "  Compiling #{relative_path(infile)} to #{relative_path(outfile)}"
+    output, status = Open3.capture2e("#{sass_cmd} '#{infile}' > '#{outfile}'")
+    return if status == 0
+
+    warn(output)
+    raise
+  end
 
   # ------------------------------
   # Lazy fields
@@ -66,10 +78,10 @@ class UILibrary
 
   def sass_cmd
     @sass_cmd ||= if system('which sassc > /dev/null 2>&1')
-      'sassc -t expanded'
-    elsif system('which sass > /dev/null 2>&1')
-      'sass'
-    end
+                    'sassc -t expanded'
+                  elsif system('which sass > /dev/null 2>&1')
+                    'sass'
+                  end
   end
 
   def sass_lint_cmd
@@ -95,6 +107,7 @@ class UILibrary
   def valid_path(project_root)
     project_path = Pathname.new(project_root)
     return project_path if project_path.exist?
+
     raise ArgumentError, "Path #{project_root} does not exist"
   end
 

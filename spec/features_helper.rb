@@ -70,7 +70,7 @@ RSpec.shared_context('user', shared_context: :metadata) do
 
   before :all do
     @user_login = 'dmolesUC3'
-    @user_id = 10374934
+    @user_id = 10_374_934
     @user_json = File.read(Rails.root.join('spec/data/user.json'))
   end
 
