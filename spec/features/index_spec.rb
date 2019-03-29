@@ -21,7 +21,7 @@ describe 'home' do
       fill_in('login', with: user_login)
       click_button('submit')
 
-      expected_path = url_for(controller: 'events', action: 'list', login: user_login, only_path: true)
+      expected_path = url_for(controller: 'events', action: 'index', login: user_login, only_path: true)
       expect(page).to have_current_path(expected_path)
     end
   end

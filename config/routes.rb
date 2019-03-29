@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root('events#home')
+  root('home#index')
 
-  get('events/', to: 'events#home')
-  get('events/:login', to: 'events#list')
+  get('events/:login', to: 'events#index')
 end
