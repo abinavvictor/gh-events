@@ -1,3 +1,5 @@
-require 'rubocop/rake_task'
+unless ENV['RAILS_ENV'] == 'production'.freeze
+  require 'rubocop/rake_task'
 
-RuboCop::RakeTask.new
+  RuboCop::RakeTask.new
+end
