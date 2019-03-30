@@ -8,7 +8,7 @@ class EventsController < ApplicationController
   def index
     flash[:error] = nil
     if (q_login = request.query_parameters[:login])
-      redirect_to "/#{q_login}"
+      redirect_to pretty_url_for(q_login)
       return
     end
     update_user!
@@ -54,6 +54,12 @@ class EventsController < ApplicationController
 
   private
 
+  def pretty_url_for(q_login)
+    redirect_path = "/#{q_login}"
+    return redirect_path if current_page == 1
+    redirect_path + "/#{current_page}"
+  end
+
   def client
     @client ||= Octokit::Client.new
   end
@@ -70,10 +76,9 @@ class EventsController < ApplicationController
 
   def events_for(user)
     return [] unless user
-
     # TODO: something smarter with Sawyer pagination? https://github.com/octokit/octokit.rb#pagination
-    options = params[:page] ? { query: { page: current_page } } : {}
-    client.user_events(user.id, options)
+    return client.user_events(user.id) if current_page == 1
+    client.user_events(user.id, { query: { page: current_page } })
   end
 
   def page_from(rel)

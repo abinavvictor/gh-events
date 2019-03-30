@@ -4,7 +4,7 @@
       <% if p == current_page %>
         <li class="current"><%= p %></li>
       <% else %>
-        <li><%= link_to(p.to_s, "/#{login}?page=#{p}") %></li>
+        <li><%= link_to(p.to_s, "/#{login}/#{p}") %></li>
       <% end %>
     <% end %>
   </ul>

@@ -57,14 +57,20 @@ describe 'events#list' do
       link_header = 'Link: ' + links.to_a.map { |rel, href| "<#{href}>; rel=\"#{rel}\"" }.join(', ')
 
       stub_get_json(events_page_3_url, events_page_3_json, headers: { Link: link_header })
-      visit("/#{user_login}?page=3")
+      visit("/#{user_login}/3")
     end
 
     it 'displays expected basic content' do
       expect(page).to have_content(user_login)
       expect(page).to have_selector('h1', text: user_login)
+    end
 
+    it 'displays the page nav' do
       expect(page).to have_selector('li', text: 3)
+      (1..10).each do |p|
+        next if p == 3
+        expect(page).to have_link(p.to_s, href: "/#{user_login}/#{p}")
+      end
     end
 
     describe 'displays the events' do
