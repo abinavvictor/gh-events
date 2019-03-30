@@ -1,5 +1,7 @@
 # gh-events
 
+[![Build Status](https://travis-ci.org/dmoles/gh-events.svg?branch=master)](https://travis-ci.org/dmoles/gh-events)
+
 A proof-of-concept web application using the GitHub Events API to display a
 given user's recent activity. 
 
