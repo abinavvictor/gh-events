@@ -13,17 +13,19 @@
 <body>
 
 <main>
-    <h1>List Events</h1>
+    <section class="form">
+        <h1>List Events</h1>
 
-    <form action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
-        <label for="login">Enter a GitHub login name to get started:</label>
-        <input type="text" name="login" id="login"/>
-        <input type="submit" name="submit" value="Go" id="submit" data-disable-with="Go"/>
-    </form>
+        <form action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+            <label for="login">Enter a GitHub login name to get started:</label>
+            <input type="text" name="login" id="login"/>
+            <input type="submit" name="submit" value="Go" id="submit" data-disable-with="Go"/>
+        </form>
+    </section>
 
     <aside class="error">
-    <h1>User not found</h1>
-    The user ‘not-a-real-github-user’ could not be found.
+        <h1>User not found</h1>
+        The user ‘not-a-real-github-user’ could not be found.
     </aside>
 </main>
 

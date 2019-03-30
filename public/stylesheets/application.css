@@ -5,10 +5,13 @@ html {
 body {
   background-color: #ffffff;
   color: #17293a;
+  display: flex;
+  flex-direction: column;
   font-family: "Neue Haas Grotesk", "Helvetica Neue", "Helvetica", "Nimbus Sans", "Nimbus Sans L", "Arial", sans-serif;
   line-height: 1.33333;
-  margin: 12px;
+  margin: 24px;
   min-height: 100vh;
+  width: 100%;
 }
 
 nav {
@@ -19,17 +22,18 @@ nav {
 }
 
 main {
-  align-self: center;
+  align-self: start;
   flex-direction: column;
   flex-grow: 1;
   height: min-content;
-  padding: 12px;
+  padding: 24px;
+  width: fit-content;
 }
 
 h1 {
   font-size: larger;
   font-weight: bold;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 a {
@@ -48,6 +52,7 @@ table {
 
 table thead tr th {
   border-bottom: 1px solid #7a88a3;
+  padding-bottom: 0;
 }
 
 table tr:not(:last-child) th {
@@ -64,28 +69,48 @@ table tr:nth-child(even) {
 
 th {
   font-weight: bold;
-  padding: 6px;
+  padding: 12px;
   text-align: left;
 }
 
+th:first-child {
+  padding-left: 0;
+}
+
+th:last-child {
+  padding-right: 6px;
+}
+
 td {
-  padding: 6px;
+  padding: 12px;
+}
+
+td:first-child {
+  padding-left: 0;
+}
+
+td:last-child {
+  padding-right: 6px;
 }
 
 img.avatar {
   height: 1em;
 }
 
+section.form {
+  margin-bottom: 24px;
+}
+
 aside.error {
   background: #f8d462;
   border: 1px solid #7a88a3;
-  margin-top: 12px;
-  padding: 12px;
+  margin-top: 24px;
+  padding: 24px;
   width: fit-content;
 }
 
 section.events {
   border-top: 1px solid #7a88a3;
-  margin-top: 12px;
-  padding-top: 12px;
+  margin-top: 24px;
+  padding-top: 24px;
 }
