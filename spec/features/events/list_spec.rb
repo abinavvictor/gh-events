@@ -20,7 +20,7 @@ describe 'events#list' do
       expect(page).to have_content(user_login)
       expect(page).to have_selector('h1', text: user_login)
 
-      expect(page).to have_content('Page 1 of 1')
+      expect(page).to have_selector('li', text: 1)
     end
 
     describe 'displays the events' do
@@ -64,7 +64,7 @@ describe 'events#list' do
       expect(page).to have_content(user_login)
       expect(page).to have_selector('h1', text: user_login)
 
-      expect(page).to have_content('Page 3 of 10')
+      expect(page).to have_selector('li', text: 3)
     end
 
     describe 'displays the events' do
@@ -90,12 +90,22 @@ describe 'events#list' do
 
     before :each do
       stub_get_json(user_url(bad_user), user_not_found_json, status: 404)
-      visit("/#{bad_user}")
     end
 
-    it 'displays a custom error page' do
-      expect(page).not_to have_content('Puma caught this error')
-      expect(page).to have_content("The user ‘#{bad_user}’ could not be found.")
+    describe 'with path parameter' do
+      it 'displays a custom error page' do
+        visit("/#{bad_user}")
+        expect(page).not_to have_content('Puma caught this error')
+        expect(page).to have_content("The user ‘#{bad_user}’ could not be found.")
+      end
+    end
+
+    describe 'with query parameter' do
+      it 'displays a custom error page' do
+        visit("/?login=#{bad_user}")
+        expect(page).not_to have_content('Puma caught this error')
+        expect(page).to have_content("The user ‘#{bad_user}’ could not be found.")
+      end
     end
   end
 

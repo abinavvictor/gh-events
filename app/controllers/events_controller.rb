@@ -2,18 +2,24 @@ require 'octokit'
 
 class EventsController < ApplicationController
 
+  # ------------------------------------------------------------
+  # Actions
+
   def index
     flash[:error] = nil
-    return unless login
-
-    redirect_to "/#{login}" unless request.path_parameters[:login]
-
-    @user = user_for(login)
-    @events = events_for(@user)
+    if (q_login = request.query_parameters[:login])
+      redirect_to "/#{q_login}"
+      return
+    end
+    update_user!
+    update_events_table!
   rescue Octokit::NotFound
     flash[:error] = "The user ‘#{login}’ could not be found."
     render(status: :not_found)
   end
+
+  # ------------------------------------------------------------
+  # Pagination helpers
 
   def current_page
     @current_page ||= begin
@@ -23,19 +29,28 @@ class EventsController < ApplicationController
   end
   helper_method :current_page
 
-  attr_reader :prev_page
+  def prev_page
+    @prev_page ||= page_from(:prev)
+  end
   helper_method :prev_page
 
-  attr_reader :next_page
+  def next_page
+    @next_page ||= page_from(:next)
+  end
   helper_method :next_page
 
-  attr_reader :last_page
+  def last_page
+    @last_page ||= (page_from(:last) || current_page)
+  end
   helper_method :last_page
 
   def login
-    @login ||= params[:login]
+    @login ||= request.path_parameters[:login]
   end
   helper_method :login
+
+  # ------------------------------------------------------------
+  # Private methods
 
   private
 
@@ -43,33 +58,29 @@ class EventsController < ApplicationController
     @client ||= Octokit::Client.new
   end
 
+  def update_user!
+    @user = login && client.user(login)
+  end
+
+  def update_events_table!
+    return unless @user
+
+    @events = events_for(@user)
+  end
+
   def events_for(user)
     return [] unless user
 
     # TODO: something smarter with Sawyer pagination? https://github.com/octokit/octokit.rb#pagination
     options = params[:page] ? { query: { page: current_page } } : {}
-    events = client.user_events(user.id, options)
-    update_page_numbers(client.last_response)
-    events
-  end
-
-  def update_page_numbers(last_response)
-    @prev_page = page_from(last_response.rels[:prev])
-    @next_page = page_from(last_response.rels[:next])
-    @last_page = page_from(last_response.rels[:last]) || current_page
-  end
-
-  def user_for(login)
-    return unless login
-
-    client.user(login)
+    client.user_events(user.id, options)
   end
 
   def page_from(rel)
     return unless rel
-
-    query = URI.parse(rel.href).query
-    return unless query
+    return unless (last_response = client.last_response)
+    return unless (link = last_response.rels[rel])
+    return unless (query = URI.parse(link.href).query)
 
     query_params = Rack::Utils.parse_query(query)
     page = query_params['page'].to_i
