@@ -3,6 +3,7 @@ require 'octokit'
 class EventsController < ApplicationController
 
   def index
+    flash[:error] = nil
     return unless login
 
     redirect_to "/#{login}" unless request.path_parameters[:login]
@@ -10,7 +11,8 @@ class EventsController < ApplicationController
     @user = user_for(login)
     @events = events_for(@user)
   rescue Octokit::NotFound
-    render(template: 'events/user_not_found', status: :not_found) && return
+    flash[:error] = "The user ‘#{login}’ could not be found."
+    render(status: :not_found)
   end
 
   def current_page

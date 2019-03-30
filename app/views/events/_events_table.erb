@@ -16,6 +16,15 @@
   </tr>
   </thead>
   <tbody>
-  <%= render(partial: 'event_row', collection: @events, as: :event) %>
+  <% if @events.size > 0 %>
+    <%= render(partial: 'event_row', collection: @events, as: :event) %>
+  <% else %>
+  <tr>
+    <td colspan="5">
+      No events found for <a href="<%= @user.html_url %>"><img class="avatar" src="<%= @user.avatar_url %>" alt="@<%= @user.login %>"/></a>
+      <a href="<%= @user.html_url %>"><%= @user.login %></a>.
+    </td>
+  </tr>
+  <% end %>
   </tbody>
 </table>

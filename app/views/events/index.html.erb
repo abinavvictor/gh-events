@@ -1,7 +1,16 @@
 
 <%= render(partial: 'login_form') %>
 
+<% if flash[:error] %>
+  <aside class="error">
+    <h1>Error</h1>
+    <%= flash[:error] %>
+  </aside>
+<% end %>
+
 <% if @user %>
+  <section class="events">
   <% content_for(:title, @user.login) %>
   <%= render(partial: 'events_table') %>
+  </section>
 <% end %>

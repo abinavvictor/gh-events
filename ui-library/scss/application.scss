@@ -47,6 +47,10 @@ a {
 table {
   font-size: smaller;
 
+  thead tr th {
+    border-bottom: 1px solid $color-border;
+  }
+
   tr:not(:last-child) {
     th {
       border-bottom: 1px solid $color-border;
@@ -63,6 +67,7 @@ table {
 }
 
 th {
+  font-weight: bold;
   padding: $padding / 2;
   text-align: left;
 }
@@ -73,4 +78,18 @@ td {
 
 img.avatar {
   height: 1em;
+}
+
+aside.error {
+  background: $color-bg-error;
+  border: 1px solid $color-border;
+  margin-top: $margin;
+  padding: $padding;
+  width: fit-content;
+}
+
+section.events {
+  border-top: 1px solid $color-border;
+  margin-top: $margin;
+  padding-top: $padding;
 }

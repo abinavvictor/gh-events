@@ -7,8 +7,11 @@ $padding: $margin;
 // ////////////////////////////////////////////////////////////
 // Colors
 
+// adapted from http://www.papersandpaints.co.uk/1930s-colours/
+
 // Base colors
 $aircraft-blue: #202b49;
+$biarritz: #f8d462;
 $jasper-blue: #7a88a3;
 $oxford-blue: #17293a;
 $parrot: #035a5c;
@@ -21,6 +24,7 @@ $color-link-hover: $aircraft-blue;
 
 $color-bg: #ffffff;
 $color-bg-accent: $penguin;
+$color-bg-error: $biarritz;
 
 $color-border: $jasper-blue;
 
