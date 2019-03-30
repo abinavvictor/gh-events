@@ -113,4 +113,32 @@ section.events {
   border-top: 1px solid #7a88a3;
   margin-top: 24px;
   padding-top: 24px;
+  position: relative;
+}
+
+section.events nav {
+  font-size: smaller;
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+
+section.events nav ul {
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: auto;
+}
+
+section.events nav ul li {
+  display: block;
+  text-align: center;
+  width: 2em;
+}
+
+section.events nav ul li.current {
+  font-weight: bold;
+}
+
+section.events nav ul li:not(:last-of-type) {
+  border-right: 1px solid #7a88a3;
 }

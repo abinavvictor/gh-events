@@ -117,4 +117,33 @@ section.events {
   border-top: 1px solid $color-border;
   margin-top: $margin;
   padding-top: $padding;
+  position: relative;
+
+  nav {
+    font-size: smaller;
+    position: absolute;
+    right: 0;
+    // fudge baseline to match <h1> on left
+    top: (7 * $margin) / 6;
+
+    ul {
+      display: grid;
+      grid-auto-flow: column;
+      margin-left: auto;
+
+      li {
+        display: block;
+        text-align: center;
+        width: 2em;
+
+        &.current {
+          font-weight: bold;
+        }
+
+        &:not(:last-of-type) {
+          border-right: 1px solid $color-border;
+        }
+      }
+    }
+  }
 }

@@ -56,7 +56,7 @@ class EventsController < ApplicationController
   def update_page_numbers(last_response)
     @prev_page = page_from(last_response.rels[:prev])
     @next_page = page_from(last_response.rels[:next])
-    @last_page = page_from(last_response.rels[:last]) || 1
+    @last_page = page_from(last_response.rels[:last]) || current_page
   end
 
   def user_for(login)
