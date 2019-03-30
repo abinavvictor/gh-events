@@ -16,7 +16,7 @@
   </tr>
   </thead>
   <tbody>
-  <% if @events.size > 0 %>
+  <% if @events && @events.size > 0 %>
     <%= render(partial: 'event_row', collection: @events, as: :event) %>
   <% else %>
   <tr>

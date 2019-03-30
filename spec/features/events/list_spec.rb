@@ -13,7 +13,7 @@ describe 'events#list' do
     end
 
     before :each do
-      visit("/events/#{user_login}")
+      visit("/#{user_login}")
     end
 
     it 'displays expected basic content' do
@@ -57,7 +57,7 @@ describe 'events#list' do
       link_header = 'Link: ' + links.to_a.map { |rel, href| "<#{href}>; rel=\"#{rel}\"" }.join(', ')
 
       stub_get_json(events_page_3_url, events_page_3_json, headers: { Link: link_header })
-      visit("/events/#{user_login}?page=3")
+      visit("/#{user_login}?page=3")
     end
 
     it 'displays expected basic content' do
@@ -90,7 +90,7 @@ describe 'events#list' do
 
     before :each do
       stub_get_json(user_url(bad_user), user_not_found_json, status: 404)
-      visit("/events/#{bad_user}")
+      visit("/#{bad_user}")
     end
 
     it 'displays a custom error page' do
@@ -112,7 +112,7 @@ describe 'events#list' do
 
     before :each do
       stub_get_json(event_list_url(user_id), events_not_found_json, status: 404)
-      visit("/events/#{user_login}")
+      visit("/#{user_login}")
     end
 
     it 'displays a custom error page' do
