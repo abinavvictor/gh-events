@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # TODO: ditch this, just display everything in a single page
-  root('home#index')
+  root('events#index')
 
-  get('events/:login', to: 'events#index')
+  get('/:login', to: 'events#index')
 end

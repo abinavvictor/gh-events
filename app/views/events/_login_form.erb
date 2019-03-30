@@ -1,7 +1,7 @@
 <h1>List Events</h1>
 
 <%= form_tag('/', method: 'get') do %>
-  <%= label_tag(:login, "Enter a GitHub login name to get started:") %>
-  <%= text_field_tag(:login) %>
+  <%= label_tag(:login, "Events for GitHub login:") %>
+  <%= text_field_tag(:login, login) %>
   <%= submit_tag(value="Go", name: 'submit', id: 'submit') %>
 <% end %>

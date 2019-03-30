@@ -1,24 +1,7 @@
-<% content_for(:title, @user.login) %>
 
-<h1>
-  <a href="<%= @user.html_url %>"><img class="avatar" src="<%= @user.avatar_url %>" alt="@<%= @user.login %>"/></a>
-  <a href="<%= @user.html_url %>"><%= @user.login %></a>
-</h1>
+<%= render(partial: 'login_form') %>
 
-<%= render(partial: 'page_nav') %>
-
-<table>
-  <thead>
-  <tr>
-    <th>Date</th>
-    <th>ID</th>
-    <th>Type</th>
-    <th>Actor</th>
-    <th>Repository</th>
-  </tr>
-  </thead>
-  <tbody>
-  <%= render(partial: 'event_row', collection: @events, as: :event) %>
-  </tbody>
-  <% # TODO: pagination %>
-</table>
+<% if @user %>
+  <% content_for(:title, @user.login) %>
+  <%= render(partial: 'events_table') %>
+<% end %>

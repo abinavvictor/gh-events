@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
     <title>gh-events</title>
-    <meta name="csrf-param" content="authenticity_token" />
-    <meta name="csrf-token" content="VQlWjtj0dopR/R7kKP/S/EpRlDaoWyTlR4rgH9TBMSurp1ilm+nE7ZCnpA67Qbf96qKcynxC3OenmMuRxW97VA==" />
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="VQlWjtj0dopR/R7kKP/S/EpRlDaoWyTlR4rgH9TBMSurp1ilm+nE7ZCnpA67Qbf96qKcynxC3OenmMuRxW97VA=="/>
 
 
-    <link rel="stylesheet" media="all" href="../public/stylesheets/reset.css" />
-    <link rel="stylesheet" media="all" href="../public/stylesheets/application.css" />
+    <link rel="stylesheet" media="all" href="../public/stylesheets/reset.css"/>
+    <link rel="stylesheet" media="all" href="../public/stylesheets/application.css"/>
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="/" id="home">Home</a></li>
-        </ul>
-    </nav>
-</header>
-
 <main>
-<h1>User not found</h1>
-The user ‘not-a-real-github-user’ could not be found.
+    <h1>List Events</h1>
+
+    <form action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+        <label for="login">Enter a GitHub login name to get started:</label>
+        <input type="text" name="login" id="login"/>
+        <input type="submit" name="submit" value="Go" id="submit" data-disable-with="Go"/>
+    </form>
+
+    <h1>User not found</h1>
+    The user ‘not-a-real-github-user’ could not be found.
 </main>
 
 </body>

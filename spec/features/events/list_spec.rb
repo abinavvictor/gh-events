@@ -21,8 +21,6 @@ describe 'events#list' do
       expect(page).to have_selector('h1', text: user_login)
 
       expect(page).to have_content('Page 1 of 1')
-
-      expect(page).to have_link('home', href: '/')
     end
 
     describe 'displays the events' do
@@ -67,8 +65,6 @@ describe 'events#list' do
       expect(page).to have_selector('h1', text: user_login)
 
       expect(page).to have_content('Page 3 of 10')
-
-      expect(page).to have_link('home', href: '/')
     end
 
     describe 'displays the events' do
@@ -100,8 +96,6 @@ describe 'events#list' do
     it 'displays a custom error page' do
       expect(page).not_to have_content('Puma caught this error')
       expect(page).to have_content("The user ‘#{bad_user}’ could not be found.")
-
-      expect(page).to have_link('home', href: '/')
     end
   end
 
@@ -124,8 +118,6 @@ describe 'events#list' do
     it 'displays a custom error page' do
       expect(page).not_to have_content('Puma caught this error')
       expect(page).to have_content("The user ‘#{user_login}’ could not be found.")
-
-      expect(page).to have_link('home', href: '/')
     end
   end
 end

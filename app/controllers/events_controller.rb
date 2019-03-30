@@ -3,6 +3,10 @@ require 'octokit'
 class EventsController < ApplicationController
 
   def index
+    return unless login
+
+    redirect_to "/#{login}" unless request.path_parameters[:login]
+
     @user = user_for(login)
     @events = events_for(@user)
   rescue Octokit::NotFound
@@ -25,6 +29,11 @@ class EventsController < ApplicationController
 
   attr_reader :last_page
   helper_method :last_page
+
+  def login
+    @login ||= params[:login]
+  end
+  helper_method :login
 
   private
 
