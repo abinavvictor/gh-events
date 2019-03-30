@@ -57,6 +57,7 @@ class EventsController < ApplicationController
   def pretty_url_for(q_login)
     redirect_path = "/#{q_login}"
     return redirect_path if current_page == 1
+
     redirect_path + "/#{current_page}"
   end
 
@@ -78,6 +79,7 @@ class EventsController < ApplicationController
     return [] unless user
     # TODO: something smarter with Sawyer pagination? https://github.com/octokit/octokit.rb#pagination
     return client.user_events(user.id) if current_page == 1
+
     client.user_events(user.id, { query: { page: current_page } })
   end
 

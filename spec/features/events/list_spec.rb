@@ -69,6 +69,7 @@ describe 'events#list' do
       expect(page).to have_selector('li', text: 3)
       (1..10).each do |p|
         next if p == 3
+
         expect(page).to have_link(p.to_s, href: "/#{user_login}/#{p}")
       end
     end
